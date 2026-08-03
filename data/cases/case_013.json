@@ -1,0 +1,27 @@
+{
+  "case_id": "case_013",
+  "country": "tw",
+  "prompt": "網路行銷平台有哪些？",
+  "response": "網路行銷平台依功能可分為六大類：社群媒體（如FB、IG、Threads）、數位廣告（Google Ads、Meta Ads）、內容行銷（部落格、YouTube）、電子郵件（EDM系統）、聯盟行銷與電商通路（蝦皮、momo）。多數品牌會透過這些平台，搭配 [網路行銷方式](https://www.da-vinci.com.tw/tw/blog/online-marketing) 進行佈局。 [www.benchmarkemail.com](https://www.benchmarkemail.com/tw/home-new/) [fastbuilder.vip](https://fastbuilder.vip/e-commerce-or-official-website-better-%E9%9B%BB%E5%95%86%E5%B9%B3%E5%8F%B0-%E5%93%81%E7%89%8C%E5%AE%98%E7%B6%B2/) [www.pintech.com.tw](https://www.pintech.com.tw/blog_list/8/benefits-of-online-marketing-companies-for-app-companies) [www.businessweekly.com.tw](https://www.businessweekly.com.tw/management/blog/26382) \n\n六大網路行銷平台類型\n\n1. 社群媒體行銷平台\n   - 用途：透過 [Facebook](https://www.awoo.ai/zh-hant/blog/marketing-patform/)、Instagram、Threads 等工具與目標受眾即時互動、建立粉絲黏著度，或結合網紅(KOL)宣傳。 [www.awoo.ai](https://www.awoo.ai/zh-hant/blog/marketing-patform/) [zh-tw.facebook.com](https://zh-tw.facebook.com/business/small-business/how-to-move-business-online) [www.bnext.com.tw](https://www.bnext.com.tw/podcast/90/bn-podcast-ig-quick-commerce) [ifunnels.tw](https://ifunnels.tw/blog/digital-marketing-tools/) \n2. 數位廣告平台\n   - 用途：包含 [Google Ads](https://ads.google.com/?subid=xs-ip-aimode-control)（搜尋引擎關鍵字與多媒體廣告）與 Meta Ads（FB/IG廣告），能精準鎖定受眾、快速導入流量與轉換。 [yingliu.com.tw](https://yingliu.com.tw/how-to-do-e-commerce-marketing/) \n3. 內容行銷平台\n   - 用途：透過官方部落格、YouTube、Podcast 等平台發布高品質內容，搭配 SEO 策略長期累積自然搜尋流量，建立品牌權威。\n4. 電子郵件行銷平台 (EDM)\n   - 用途：透過系統發送自動化信件或電子報，針對會員進行優惠通知、喚醒沈睡客群與維繫關係。\n5. 聯盟行銷平台\n   - 用途：讓部落客、網紅或其他個人成為推廣夥伴，透過專屬追蹤連結導購，成交後再支付佣金的合作模式。 [www.kolr.ai](https://www.kolr.ai/trend-sharing/affiliate-marketing/) [medium.com](https://medium.com/%E5%B0%B1%E6%98%AF%E6%84%9B%E7%8E%A9%E8%A1%8C%E9%8A%B7/%E5%96%84%E7%94%A8-4-%E7%A8%AE%E5%B7%A5%E5%85%B7%E6%93%A6%E4%BA%AE%E6%96%9C%E6%A7%93%E4%B8%96%E4%BB%A3%E7%9A%84%E5%80%8B%E4%BA%BA%E5%93%81%E7%89%8C-43294f728474) \n6. 通路電商平台\n   - 用途：提供銷售空間的綜合性平台，如 momo購物網、蝦皮購物、PChome。自帶巨大流量，適合快速接觸潛在買家。\n\n現代行銷往往需要 [行銷工具](https://blog.gogopartners.com/%E7%B6%B2%E8%B7%AF%E8%A1%8C%E9%8A%B7%E5%B7%A5%E5%85%B7) 的輔助，建議多渠道整合以發揮最大效益。 [blog.cresclab.com](https://blog.cresclab.com/zh-tw/remarketing) [ecstore.careernotetw.com](https://ecstore.careernotetw.com/814/) \n\n如果想進一步規劃，請告訴我：\n\n- 您的產業類型與主要產品\n- 行銷目標是短期快速銷售還是長期品牌經營  \n  我可以幫您評估最適合切入的行銷平台。",
+  "model": "Google AI Overviews",
+  "volume": 10,
+  "fanout_queries": [],
+  "cited_urls": [
+    "https://www.benchmarkemail.com/tw/home-new/",
+    "https://fastbuilder.vip/e-commerce-or-official-website-better-%E9%9B%BB%E5%95%86%E5%B9%B3%E5%8F%B0-%E5%93%81%E7%89%8C%E5%AE%98%E7%B6%B2/",
+    "https://www.pintech.com.tw/blog_list/8/benefits-of-online-marketing-companies-for-app-companies",
+    "https://www.businessweekly.com.tw/management/blog/26382",
+    "https://www.awoo.ai/zh-hant/blog/marketing-patform/",
+    "https://zh-tw.facebook.com/business/small-business/how-to-move-business-online",
+    "https://www.bnext.com.tw/podcast/90/bn-podcast-ig-quick-commerce",
+    "https://ifunnels.tw/blog/digital-marketing-tools/",
+    "https://yingliu.com.tw/how-to-do-e-commerce-marketing/",
+    "https://www.kolr.ai/trend-sharing/affiliate-marketing/",
+    "https://medium.com/%E5%B0%B1%E6%98%AF%E6%84%9B%E7%8E%A9%E8%A1%8C%E9%8A%B7/%E5%96%84%E7%94%A8-4-%E7%A8%AE%E5%B7%A5%E5%85%B7%E6%93%A6%E4%BA%AE%E6%96%9C%E6%A7%93%E4%B8%96%E4%BB%A3%E7%9A%84%E5%80%8B%E4%BA%BA%E5%93%81%E7%89%8C-43294f728474",
+    "https://blog.cresclab.com/zh-tw/remarketing",
+    "https://ecstore.careernotetw.com/814/"
+  ],
+  "found_but_not_cited_urls": [],
+  "updated": "2026-06-29",
+  "source_row": 13
+}

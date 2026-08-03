@@ -1,0 +1,34 @@
+{
+  "case_id": "case_006",
+  "prompt": "水星數位科技是做什麼的？",
+  "expected_url_count": 5,
+  "success_count": 3,
+  "failed_count": 2,
+  "resources": [
+    {
+      "citation_id": "citation_001",
+      "source_url": "https://www.104.com.tw/company/1a2x6blgbg",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_002",
+      "source_url": "https://www.yourator.co/companies/Mercury-Digital-LLC",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_003",
+      "source_url": "https://www.facebook.com/mercurydigitaltw/mentions/",
+      "status": "failed"
+    },
+    {
+      "citation_id": "citation_004",
+      "source_url": "https://ai-taiwan.com.tw/2026/vendor/569",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_005",
+      "source_url": "https://tw.linkedin.com/company/mercury-digital-co-ltd",
+      "status": "failed"
+    }
+  ]
+}

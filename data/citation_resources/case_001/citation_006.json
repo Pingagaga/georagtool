@@ -1,0 +1,16 @@
+{
+  "case_id": "case_001",
+  "citation_id": "citation_006",
+  "source_url": "https://www.threads.com/@naen0505/post/DPOzqHCCfxA/%E5%AE%A2%E6%88%B6%E8%AA%AA%E4%BB%96%E8%A6%81%E4%B8%8Bmeta-%E5%92%8C-google-ads-%E7%9A%84%E5%BB%A3%E5%91%8A%E6%AF%8F%E6%9C%88%E9%A0%90%E7%AE%97%E6%98%AF3000-6000%E5%85%83%E5%A5%BD%E5%96%94%E9%82%A3%E6%82%A8%E8%87%AA%E5%B7%B1%E6%8A%95%E6%94%BE%E8%A9%A6%E8%A9%A6",
+  "status": "failed",
+  "firecrawl": {
+    "title": "",
+    "markdown": "",
+    "metadata": {}
+  },
+  "structured": null,
+  "error": {
+    "type": "RuntimeError",
+    "message": "Firecrawl HTTP 403: {'success': False, 'error': 'We apologize for the inconvenience but we do not support this site. If you are part of an enterprise and want to have a further conversation about this, please fill out our intake form here: https://fk4bvu0n5qp.typeform.com/to/Ej6oydlg'}"
+  }
+}

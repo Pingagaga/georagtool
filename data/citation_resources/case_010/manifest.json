@@ -1,0 +1,34 @@
+{
+  "case_id": "case_010",
+  "prompt": "Google 如何落廣告？",
+  "expected_url_count": 5,
+  "success_count": 5,
+  "failed_count": 0,
+  "resources": [
+    {
+      "citation_id": "citation_001",
+      "source_url": "https://adbest.com.tw/blog/what-is-google-ads/",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_002",
+      "source_url": "https://sleekflow.io/zh-hk/blog/google-%E5%BB%A3%E5%91%8A",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_003",
+      "source_url": "https://www.awoo.ai/zh-hant/blog/google-ads/",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_004",
+      "source_url": "https://ajmartech.com/blogs/all-articles/google-ads-cost-guide",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_005",
+      "source_url": "https://harmoney.tw/marketing-ads/",
+      "status": "success"
+    }
+  ]
+}

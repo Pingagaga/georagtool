@@ -1,0 +1,19 @@
+{
+  "case_id": "case_006",
+  "country": "tw",
+  "prompt": "水星數位科技是做什麼的？",
+  "response": "水星數位科技是一家成立於2018年的專業數位行銷公司。他們主要提供品牌全媒體廣告策略、訪客樣貌解析與AI廣告系統服務，協助企業在 Meta、Google、LINE 等各大平台進行精準投放與數據分析，以最大化行銷效益。 [](https://www.104.com.tw/company/1a2x6blgbg)[www.104.com.tw](https://www.104.com.tw/company/1a2x6blgbg) [www.yourator.co](https://www.yourator.co/companies/Mercury-Digital-LLC) [www.facebook.com](https://www.facebook.com/mercurydigitaltw/mentions/) [ai-taiwan.com.tw](https://ai-taiwan.com.tw/2026/vendor/569) [tw.linkedin.com](https://tw.linkedin.com/company/mercury-digital-co-ltd) \n\n您可以參考以下他們的服務重點：\n\n- 媒體採購與廣告投放： 針對產業特性客製化跨媒體策略，利用自有人工智慧廣告系統挖掘市場機會。\n- 數據分析應用： 具備訪客樣貌解析及社群/論壇輿情分析系統，幫助品牌洞察消費者趨勢。 [](https://www.104.com.tw/company/1a2x6blgbg)[www.104.com.tw](https://www.104.com.tw/company/1a2x6blgbg) [www.facebook.com](https://www.facebook.com/mercurydigitaltw/mentions/) [tw.linkedin.com](https://tw.linkedin.com/company/mercury-digital-co-ltd) \n\n如果您想進一步了解他們的服務細節，建議可以直接造訪 水星數位科技官方網站（若有合適網址）或參考 [104人力銀行](https://www.104.com.tw/company/1a2x6blgbg) 查看具體職缺與企業簡介。\n\n如果您對數位行銷有興趣，我可以為您：\n\n- 介紹更多常見的 MarTech（行銷科技）工具\n- 說明如何評估 數位廣告投放的成效\n\n請問您想往哪個方向 進一步了解？",
+  "model": "Google AI Overviews",
+  "volume": 400,
+  "fanout_queries": [],
+  "cited_urls": [
+    "https://www.104.com.tw/company/1a2x6blgbg",
+    "https://www.yourator.co/companies/Mercury-Digital-LLC",
+    "https://www.facebook.com/mercurydigitaltw/mentions/",
+    "https://ai-taiwan.com.tw/2026/vendor/569",
+    "https://tw.linkedin.com/company/mercury-digital-co-ltd"
+  ],
+  "found_but_not_cited_urls": [],
+  "updated": "2026-07-20",
+  "source_row": 6
+}

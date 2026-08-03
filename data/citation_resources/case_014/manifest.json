@@ -1,0 +1,59 @@
+{
+  "case_id": "case_014",
+  "prompt": "Ads是什麼意思？",
+  "expected_url_count": 10,
+  "success_count": 7,
+  "failed_count": 3,
+  "resources": [
+    {
+      "citation_id": "citation_001",
+      "source_url": "https://english.cool/marketing-terms/",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_002",
+      "source_url": "https://www.ehanlin.com.tw/app/keyword/%E5%9C%8B%E4%B8%AD/%E8%8B%B1%E8%AA%9E/ad.html",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_003",
+      "source_url": "https://www.brainmax-marketing.com/article_d.php?lang=tw&tb=6&id=1515",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_004",
+      "source_url": "https://support.google.com/google-ads/answer/6319?hl=zh-Hant",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_005",
+      "source_url": "https://marketing.quarter.com.tw/blog/google-ads",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_006",
+      "source_url": "https://www.reddit.com/r/EliteDangerous/comments/nmsg2c/does_anyone_know_what_improves_ads_functionality/?tl=zh-hant",
+      "status": "failed"
+    },
+    {
+      "citation_id": "citation_007",
+      "source_url": "https://www.reddit.com/r/DestinyTheGame/comments/3m4bxo/for_those_new_to_mmos_fpss_our_both_adds_vs_ads/?tl=zh-hant",
+      "status": "failed"
+    },
+    {
+      "citation_id": "citation_008",
+      "source_url": "https://www.reddit.com/r/DestinyTheGame/comments/12tv73r/what_does_adsadds_mean_and_where_did_it_originate/?tl=zh-hant",
+      "status": "failed"
+    },
+    {
+      "citation_id": "citation_009",
+      "source_url": "https://blog.stockfisher.com.hk/%E8%82%A1%E7%A5%A8%E5%85%A5%E9%96%80/adr%E6%98%AF%E4%BB%80%E9%BA%BC/",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_010",
+      "source_url": "https://baike.baidu.com/item/%E7%BE%8E%E5%9B%BD%E5%AD%98%E6%89%98%E8%82%A1%E4%BB%BD/4484370",
+      "status": "success"
+    }
+  ]
+}

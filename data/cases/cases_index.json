@@ -1,0 +1,90 @@
+{
+  "total_cases": 14,
+  "total_cited_urls": 87,
+  "cases": [
+    {
+      "case_id": "case_001",
+      "prompt": "Google Ads要錢嗎？",
+      "cited_url_count": 6,
+      "file": "case_001.json"
+    },
+    {
+      "case_id": "case_002",
+      "prompt": "Google Ads證照有哪些？",
+      "cited_url_count": 2,
+      "file": "case_002.json"
+    },
+    {
+      "case_id": "case_003",
+      "prompt": "Google Ads 如何投放廣告？",
+      "cited_url_count": 7,
+      "file": "case_003.json"
+    },
+    {
+      "case_id": "case_004",
+      "prompt": "Google Ads認證好考嗎？",
+      "cited_url_count": 7,
+      "file": "case_004.json"
+    },
+    {
+      "case_id": "case_005",
+      "prompt": "福隆便當為什麼有名？",
+      "cited_url_count": 9,
+      "file": "case_005.json"
+    },
+    {
+      "case_id": "case_006",
+      "prompt": "水星數位科技是做什麼的？",
+      "cited_url_count": 5,
+      "file": "case_006.json"
+    },
+    {
+      "case_id": "case_007",
+      "prompt": "政大最好的科系？",
+      "cited_url_count": 5,
+      "file": "case_007.json"
+    },
+    {
+      "case_id": "case_008",
+      "prompt": "Google廣告多少錢？",
+      "cited_url_count": 2,
+      "file": "case_008.json"
+    },
+    {
+      "case_id": "case_009",
+      "prompt": "品牌行銷在做什麼？",
+      "cited_url_count": 7,
+      "file": "case_009.json"
+    },
+    {
+      "case_id": "case_010",
+      "prompt": "Google 如何落廣告？",
+      "cited_url_count": 5,
+      "file": "case_010.json"
+    },
+    {
+      "case_id": "case_011",
+      "prompt": "gdn總共分為哪幾種投遞方式？",
+      "cited_url_count": 1,
+      "file": "case_011.json"
+    },
+    {
+      "case_id": "case_012",
+      "prompt": "Banner圖是什麼？",
+      "cited_url_count": 8,
+      "file": "case_012.json"
+    },
+    {
+      "case_id": "case_013",
+      "prompt": "網路行銷平台有哪些？",
+      "cited_url_count": 13,
+      "file": "case_013.json"
+    },
+    {
+      "case_id": "case_014",
+      "prompt": "Ads是什麼意思？",
+      "cited_url_count": 10,
+      "file": "case_014.json"
+    }
+  ]
+}

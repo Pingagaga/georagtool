@@ -1,0 +1,44 @@
+{
+  "case_id": "case_009",
+  "prompt": "品牌行銷在做什麼？",
+  "expected_url_count": 7,
+  "success_count": 7,
+  "failed_count": 0,
+  "resources": [
+    {
+      "citation_id": "citation_001",
+      "source_url": "https://advertising.amazon.com/zh-tw/library/guides/brand-marketing",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_002",
+      "source_url": "https://keid.nat.gov.tw/branding-taiwan/BrandAnalysis/brandAnalysis_more?id=d725397ce27f4fa88b3189d4427d4966",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_003",
+      "source_url": "https://www.yourator.co/articles/609",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_004",
+      "source_url": "https://www.youtube.com/watch?v=AcIeaq_oaEY",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_005",
+      "source_url": "https://blog.104.com.tw/what-is-brand-marketing/",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_006",
+      "source_url": "https://www.hububble.co/blog/brand-marketing",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_007",
+      "source_url": "https://inawang.com/marketing_introduction/",
+      "status": "success"
+    }
+  ]
+}

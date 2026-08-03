@@ -1,0 +1,19 @@
+{
+  "case_id": "case_002",
+  "prompt": "Google Ads證照有哪些？",
+  "expected_url_count": 2,
+  "success_count": 2,
+  "failed_count": 0,
+  "resources": [
+    {
+      "citation_id": "citation_001",
+      "source_url": "https://tesa.contenta.tw/1054/",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_002",
+      "source_url": "https://skillshop.withgoogle.com/intl/zh-TW_ALL/googleads/",
+      "status": "success"
+    }
+  ]
+}

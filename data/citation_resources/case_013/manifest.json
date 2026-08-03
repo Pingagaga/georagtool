@@ -1,0 +1,74 @@
+{
+  "case_id": "case_013",
+  "prompt": "網路行銷平台有哪些？",
+  "expected_url_count": 13,
+  "success_count": 12,
+  "failed_count": 1,
+  "resources": [
+    {
+      "citation_id": "citation_001",
+      "source_url": "https://www.benchmarkemail.com/tw/home-new/",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_002",
+      "source_url": "https://fastbuilder.vip/e-commerce-or-official-website-better-%E9%9B%BB%E5%95%86%E5%B9%B3%E5%8F%B0-%E5%93%81%E7%89%8C%E5%AE%98%E7%B6%B2/",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_003",
+      "source_url": "https://www.pintech.com.tw/blog_list/8/benefits-of-online-marketing-companies-for-app-companies",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_004",
+      "source_url": "https://www.businessweekly.com.tw/management/blog/26382",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_005",
+      "source_url": "https://www.awoo.ai/zh-hant/blog/marketing-patform/",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_006",
+      "source_url": "https://zh-tw.facebook.com/business/small-business/how-to-move-business-online",
+      "status": "failed"
+    },
+    {
+      "citation_id": "citation_007",
+      "source_url": "https://www.bnext.com.tw/podcast/90/bn-podcast-ig-quick-commerce",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_008",
+      "source_url": "https://ifunnels.tw/blog/digital-marketing-tools/",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_009",
+      "source_url": "https://yingliu.com.tw/how-to-do-e-commerce-marketing/",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_010",
+      "source_url": "https://www.kolr.ai/trend-sharing/affiliate-marketing/",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_011",
+      "source_url": "https://medium.com/%E5%B0%B1%E6%98%AF%E6%84%9B%E7%8E%A9%E8%A1%8C%E9%8A%B7/%E5%96%84%E7%94%A8-4-%E7%A8%AE%E5%B7%A5%E5%85%B7%E6%93%A6%E4%BA%AE%E6%96%9C%E6%A7%93%E4%B8%96%E4%BB%A3%E7%9A%84%E5%80%8B%E4%BA%BA%E5%93%81%E7%89%8C-43294f728474",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_012",
+      "source_url": "https://blog.cresclab.com/zh-tw/remarketing",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_013",
+      "source_url": "https://ecstore.careernotetw.com/814/",
+      "status": "success"
+    }
+  ]
+}

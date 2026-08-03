@@ -1,0 +1,15 @@
+{
+  "case_id": "case_011",
+  "country": "tw",
+  "prompt": "gdn總共分為哪幾種投遞方式？",
+  "response": "GDN（Google 多媒體廣告聯播網）的投遞方式主要分為五種核心模式：內容比對、指定投放、主題定位、興趣行銷與再行銷。 [roddayeye.pixnet.net](https://roddayeye.pixnet.net/blog/posts/15312971290) \n\n投遞方式說明\n\n- 內容比對：系統自動掃描網頁內容，將相關廣告投遞在契合的網站文章中。\n- 指定投放：廣告主手動選擇特定的網址、管道或關鍵字，精準讓廣告曝光在指定位置。\n- 主題定位：依照網站整體的分類主題（如旅遊、美食、科技）來分發廣告。\n- 興趣行銷：根據使用者近期長期的瀏覽習慣與搜尋行為，鎖定對特定事物有興趣的受眾。\n- 再行銷：針對曾造訪過你網站或應用程式的舊訪客再次投遞廣告，提高轉換機會。\n\n如果你想了解如何透過 Google Ads 實際設定這些投遞方式，我可以提供進一步的操作步驟或預算規劃建議！",
+  "model": "Google AI Overviews",
+  "volume": 100,
+  "fanout_queries": [],
+  "cited_urls": [
+    "https://roddayeye.pixnet.net/blog/posts/15312971290"
+  ],
+  "found_but_not_cited_urls": [],
+  "updated": "2026-07-24",
+  "source_row": 11
+}

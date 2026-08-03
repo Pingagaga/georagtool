@@ -1,0 +1,19 @@
+{
+  "case_id": "case_008",
+  "prompt": "Google廣告多少錢？",
+  "expected_url_count": 2,
+  "success_count": 2,
+  "failed_count": 0,
+  "resources": [
+    {
+      "citation_id": "citation_001",
+      "source_url": "https://ajmartech.com/blogs/all-articles/google-ads-cost-guide",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_002",
+      "source_url": "https://www.tasker.com.tw/price/google-ads",
+      "status": "success"
+    }
+  ]
+}

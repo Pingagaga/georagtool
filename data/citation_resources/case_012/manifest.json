@@ -1,0 +1,49 @@
+{
+  "case_id": "case_012",
+  "prompt": "Banner圖是什麼？",
+  "expected_url_count": 8,
+  "success_count": 8,
+  "failed_count": 0,
+  "resources": [
+    {
+      "citation_id": "citation_001",
+      "source_url": "https://www.grnet.com.tw/web-design/website-banner-design-n235",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_002",
+      "source_url": "https://creativemini.com/what-is-banner/",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_003",
+      "source_url": "https://zh.wikipedia.org/zh-tw/%E6%A2%9D%E5%B9%85",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_004",
+      "source_url": "https://annych.com/banner-size/",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_005",
+      "source_url": "https://learning.xms.tw/media/2311",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_006",
+      "source_url": "https://www.youtube.com/watch?v=hdFqZmHnF3c",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_007",
+      "source_url": "https://www.canva.com/zh_tw/create/banners/",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_008",
+      "source_url": "https://blog.accupass.com/guide-to-design-the-best-event-banners.html",
+      "status": "success"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "case_id": "case_002",
+  "country": "tw",
+  "prompt": "Google Ads證照有哪些？",
+  "response": "Google Ads 證照共有   6 項官方認證  ，涵蓋搜尋、多媒體、影片、應用程式、購物廣告以及成效衡量，全數皆可於  [Google 好學堂 (Skillshop)](https://skillshop.withgoogle.com/intl/zh-TW_ALL/)   免費線上考取。\n\n詳細的 Google Ads 認證項目包含：\n\n- 搜尋廣告認證 (Search Ads)  ：專注於 Google 搜尋引擎上的文字廣告、關鍵字規劃及智慧出價。\n- 多媒體廣告認證 (Display Ads)  ：包含跨網站與 APP 的圖片廣告投放與目標對象設定。\n- 影片廣告認證 (Video Ads)  ：涵蓋 YouTube 及 Google 影片夥伴網站的影音廣告操作。\n- 應用程式廣告認證 (App Ads)  ：專攻推廣行動應用程式、提升下載量的自動化廣告策略。\n- 購物廣告認證 (Shopping Ads)  ：包含在 Google 購物分頁、搜尋結果中展示產品目錄及建立 Merchant Center 產品動態饋給。\n- Google Ads 成效衡量認證 (Measurement)  ：學習如何追蹤轉換、評估廣告成效與數據洞察。        [](https://tesa.contenta.tw/1054/)  [tesa.contenta.tw](https://tesa.contenta.tw/1054/) [skillshop.withgoogle.com](https://skillshop.withgoogle.com/intl/zh-TW_ALL/googleads/) \n\n如果你想了解更多，請告訴我：\n\n- 你目前的  數位行銷經驗  （新手 or 有基礎）\n- 你的  學習目標  （考取證照 or 實際操作廣告投放）\n\n我可以為你推薦最適合的  準備方向與學習路徑  ！",
+  "model": "Google AI Overviews",
+  "volume": 4600,
+  "fanout_queries": [],
+  "cited_urls": [
+    "https://tesa.contenta.tw/1054/",
+    "https://skillshop.withgoogle.com/intl/zh-TW_ALL/googleads/"
+  ],
+  "found_but_not_cited_urls": [],
+  "updated": "2026-07-06",
+  "source_row": 2
+}

@@ -1,0 +1,19 @@
+{
+  "case_id": "case_010",
+  "country": "tw",
+  "prompt": "Google 如何落廣告？",
+  "response": "投放 Google 廣告（Google Ads）可讓您的品牌在對的時間精準觸及潛在客戶 。  您可以至  [Google Ads 官方網站](https://business.google.com/tw/google-ads/)   註冊帳號，設定您的行銷目標（如網站流量或銷售額）、選擇受眾與地區，並使用系統預算工具設定每日花費，最後發布您的首支搜尋或多媒體廣告  。      [](https://adbest.com.tw/blog/what-is-google-ads/)  [adbest.com.tw](https://adbest.com.tw/blog/what-is-google-ads/) [sleekflow.io](https://sleekflow.io/zh-hk/blog/google-%E5%BB%A3%E5%91%8A) \n\n建立第一個 Google 廣告教學\n\n投放 Google 廣告主要分為選擇類型、設定受眾、文案撰寫及預算管理四個核心步驟。\n\n1\\. 選擇廣告活動類型\n\n- 搜尋廣告 (Search Ads)：  當用戶主動在 Google 搜尋特定關鍵字時出現，精準度最高。\n- 多媒體廣告 (GDN)：  以圖片或文字形式投放在各大新聞網站與 APP，適合品牌曝光與再行銷。\n- 影片廣告 (YouTube)：  透過影音內容強化消費者印象。\n- 最高成效廣告 (PMax)：  結合 AI，在 Google 所有聯播網（搜尋、YouTube、地圖等）自動放送。        [](https://adbest.com.tw/blog/what-is-google-ads/)  [adbest.com.tw](https://adbest.com.tw/blog/what-is-google-ads/) [www.awoo.ai](https://www.awoo.ai/zh-hant/blog/google-ads/) \n\n2\\. 設定目標受眾與關鍵字\n\n設定廣告投放的「地理位置」（如指定特定國家、城市或半徑範圍）與「語言」。若為搜尋廣告，需挑選潛在客戶會搜尋的字詞，並設定適合的關鍵字比對模式（如廣泛比對、詞組比對、完全比對）以避免預算浪費  。      [](https://adbest.com.tw/blog/what-is-google-ads/)  [adbest.com.tw](https://adbest.com.tw/blog/what-is-google-ads/) [sleekflow.io](https://sleekflow.io/zh-hk/blog/google-%E5%BB%A3%E5%91%8A) \n\n3\\. 撰寫高轉換文案\n\n製作吸睛的廣告標題與說明，強烈建議使用「行動呼籲 (CTA)」來引導用戶點擊，例如：「立即購買享優惠」、「免費索取試用」。確保廣告連結的到達網頁（Landing Page）載入速度快且內容與廣告承諾相符。      [](https://adbest.com.tw/blog/what-is-google-ads/)  [adbest.com.tw](https://adbest.com.tw/blog/what-is-google-ads/) [sleekflow.io](https://sleekflow.io/zh-hk/blog/google-%E5%BB%A3%E5%91%8A) \n\n4\\. 設定預算與出價\n\n設定每日預算後，可選擇系統推薦的「智慧出價」策略（例如爭取最多點擊次數或轉換次數），系統會自動將預算花在最有機會成交的用戶身上。      [](https://adbest.com.tw/blog/what-is-google-ads/)  [adbest.com.tw](https://adbest.com.tw/blog/what-is-google-ads/) \n\nGoogle 廣告費用怎麼算？\n\nGoogle 廣告採用「按點擊付費 (CPC)」或「按觀看付費 (CPV)」等模式。預算彈性極高，初期預估花費如下：      [](https://sleekflow.io/zh-hk/blog/google-%E5%BB%A3%E5%91%8A)  [sleekflow.io](https://sleekflow.io/zh-hk/blog/google-%E5%BB%A3%E5%91%8A) [ajmartech.com](https://ajmartech.com/blogs/all-articles/google-ads-cost-guide) \n\n- 搜尋廣告：  約 NT\\$3～NT\\$300／次點擊\n- 多媒體廣告：  約 NT\\$1～NT\\$30／次點擊\n- 影片廣告：  約 NT\\$1～NT\\$5／次觀看        [](https://ajmartech.com/blogs/all-articles/google-ads-cost-guide)  [ajmartech.com](https://ajmartech.com/blogs/all-articles/google-ads-cost-guide) \n\n新手初期每日可設定約 NT\\$200 至 NT\\$1,000 的預算進行測試，再根據轉換數據慢慢放大成效良好的廣告組合。      [](https://adbest.com.tw/blog/what-is-google-ads/)  [adbest.com.tw](https://adbest.com.tw/blog/what-is-google-ads/) [harmoney.tw](https://harmoney.tw/marketing-ads/) \n***\n對於搜尋廣告的具體細節操作或想要視覺化的設定步驟演示，可以參考以下教學影片：\n\n[【2026 Google Ads 廣告設定教學】從0到1 程小猴 YouTube · 2025年4月27日](https://www.youtube.com/watch?v=J8beD4gLTZc)",
+  "model": "Google AI Overviews",
+  "volume": 100,
+  "fanout_queries": [],
+  "cited_urls": [
+    "https://adbest.com.tw/blog/what-is-google-ads/",
+    "https://sleekflow.io/zh-hk/blog/google-%E5%BB%A3%E5%91%8A",
+    "https://www.awoo.ai/zh-hant/blog/google-ads/",
+    "https://ajmartech.com/blogs/all-articles/google-ads-cost-guide",
+    "https://harmoney.tw/marketing-ads/"
+  ],
+  "found_but_not_cited_urls": [],
+  "updated": "2026-07-07",
+  "source_row": 10
+}

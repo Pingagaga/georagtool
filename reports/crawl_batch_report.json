@@ -1,0 +1,145 @@
+{
+  "started_at": "2026-07-31T08:06:12.549163Z",
+  "completed_at": "2026-07-31T08:11:36.745141Z",
+  "mode": "crawl",
+  "total_cases_discovered": 14,
+  "total_citation_relationships": 87,
+  "selected_case_count": 14,
+  "completed_before_run": 7,
+  "skipped_completed": 7,
+  "processed_case_count": 7,
+  "success_case_count": 0,
+  "partial_case_count": 7,
+  "failed_case_count": 0,
+  "total_url_success_count": 45,
+  "total_url_failed_count": 10,
+  "cases": [
+    {
+      "case_id": "case_001",
+      "expected_url_count": 6,
+      "status_before": "incomplete",
+      "action": "processed",
+      "success_count": 5,
+      "failed_count": 1,
+      "status_after": "partial"
+    },
+    {
+      "case_id": "case_002",
+      "expected_url_count": 2,
+      "status_before": "completed",
+      "action": "skipped",
+      "success_count": 2,
+      "failed_count": 0,
+      "status_after": "completed"
+    },
+    {
+      "case_id": "case_003",
+      "expected_url_count": 7,
+      "status_before": "completed",
+      "action": "skipped",
+      "success_count": 7,
+      "failed_count": 0,
+      "status_after": "completed"
+    },
+    {
+      "case_id": "case_004",
+      "expected_url_count": 7,
+      "status_before": "incomplete",
+      "action": "processed",
+      "success_count": 6,
+      "failed_count": 1,
+      "status_after": "partial"
+    },
+    {
+      "case_id": "case_005",
+      "expected_url_count": 9,
+      "status_before": "incomplete",
+      "action": "processed",
+      "success_count": 8,
+      "failed_count": 1,
+      "status_after": "partial"
+    },
+    {
+      "case_id": "case_006",
+      "expected_url_count": 5,
+      "status_before": "incomplete",
+      "action": "processed",
+      "success_count": 3,
+      "failed_count": 2,
+      "status_after": "partial"
+    },
+    {
+      "case_id": "case_007",
+      "expected_url_count": 5,
+      "status_before": "incomplete",
+      "action": "processed",
+      "success_count": 4,
+      "failed_count": 1,
+      "status_after": "partial"
+    },
+    {
+      "case_id": "case_008",
+      "expected_url_count": 2,
+      "status_before": "completed",
+      "action": "skipped",
+      "success_count": 2,
+      "failed_count": 0,
+      "status_after": "completed"
+    },
+    {
+      "case_id": "case_009",
+      "expected_url_count": 7,
+      "status_before": "completed",
+      "action": "skipped",
+      "success_count": 7,
+      "failed_count": 0,
+      "status_after": "completed"
+    },
+    {
+      "case_id": "case_010",
+      "expected_url_count": 5,
+      "status_before": "completed",
+      "action": "skipped",
+      "success_count": 5,
+      "failed_count": 0,
+      "status_after": "completed"
+    },
+    {
+      "case_id": "case_011",
+      "expected_url_count": 1,
+      "status_before": "completed",
+      "action": "skipped",
+      "success_count": 1,
+      "failed_count": 0,
+      "status_after": "completed"
+    },
+    {
+      "case_id": "case_012",
+      "expected_url_count": 8,
+      "status_before": "completed",
+      "action": "skipped",
+      "success_count": 8,
+      "failed_count": 0,
+      "status_after": "completed"
+    },
+    {
+      "case_id": "case_013",
+      "expected_url_count": 13,
+      "status_before": "incomplete",
+      "action": "processed",
+      "success_count": 12,
+      "failed_count": 1,
+      "status_after": "partial"
+    },
+    {
+      "case_id": "case_014",
+      "expected_url_count": 10,
+      "status_before": "incomplete",
+      "action": "processed",
+      "success_count": 7,
+      "failed_count": 3,
+      "status_after": "partial"
+    }
+  ],
+  "errors": []
+}

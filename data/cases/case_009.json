@@ -1,0 +1,21 @@
+{
+  "case_id": "case_009",
+  "country": "tw",
+  "prompt": "品牌行銷在做什麼？",
+  "response": "品牌行銷是建立、發展並維護品牌與消費者之間長期關係的過程，核心工作包含確立品牌定位、塑造獨特形象以及傳遞核心價值。它不只著眼於單一產品的短期銷售，而是讓顧客打從心底信任並認同整個品牌。 [](https://advertising.amazon.com/zh-tw/library/guides/brand-marketing)[advertising.amazon.com](https://advertising.amazon.com/zh-tw/library/guides/brand-marketing) [keid.nat.gov.tw](https://keid.nat.gov.tw/branding-taiwan/BrandAnalysis/brandAnalysis_more?id=d725397ce27f4fa88b3189d4427d4966) \n\n核心工作項目\n\n- 品牌定位與形象塑造：決定品牌在市場上的獨特模樣，讓產品跟競爭對手不一樣。\n- 消費者溝通與對話：透過社群媒體、廣告與活動，與目標客群建立情感連結和雙向互動。\n- 市場趨勢觀察：分析市場變化 與顧客需求，適時調整品牌的對外策略。 [](https://www.yourator.co/articles/609)[www.yourator.co](https://www.yourator.co/articles/609) [www.youtube.com](https://www.youtube.com/watch?v=AcIeaq_oaEY) [blog.104.com.tw](https://blog.104.com.tw/what-is-brand-marketing/) [www.hububble.co](https://www.hububble.co/blog/brand-marketing) [inawang.com](https://inawang.com/marketing_introduction/) \n\n品牌行銷與一般行銷的差異\n\n- 一般行銷：多半專注於推播單一產品的資訊、促銷與優惠，追求即時的買氣。\n- 品牌行銷：重視整體價值的累積 與長期形象，讓消費者因為「信任這個品牌」而願意持續買單。 [](https://blog.104.com.tw/what-is-brand-marketing/)\n\n如果你想更深入了解，我可以進一步說明：\n\n- 品牌行銷的 具體執行步驟\n- 品牌行銷與 數位行銷、社群行銷 的分工差異\n- 新創公司如何 開始做品牌行銷\n\n請問你想從哪一個方向開始聊？",
+  "model": "Google AI Overviews",
+  "volume": 200,
+  "fanout_queries": [],
+  "cited_urls": [
+    "https://advertising.amazon.com/zh-tw/library/guides/brand-marketing",
+    "https://keid.nat.gov.tw/branding-taiwan/BrandAnalysis/brandAnalysis_more?id=d725397ce27f4fa88b3189d4427d4966",
+    "https://www.yourator.co/articles/609",
+    "https://www.youtube.com/watch?v=AcIeaq_oaEY",
+    "https://blog.104.com.tw/what-is-brand-marketing/",
+    "https://www.hububble.co/blog/brand-marketing",
+    "https://inawang.com/marketing_introduction/"
+  ],
+  "found_but_not_cited_urls": [],
+  "updated": "2026-07-25",
+  "source_row": 9
+}

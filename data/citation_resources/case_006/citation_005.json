@@ -1,0 +1,28 @@
+{
+  "case_id": "case_006",
+  "citation_id": "citation_005",
+  "source_url": "https://tw.linkedin.com/company/mercury-digital-co-ltd",
+
+  "status": "unsupported",
+
+  "capture": {
+    "method": "none",
+    "reason": "linkedin_company_page",
+    "decision": "not_analyzable_content",
+    "captured_by": "Yun",
+    "captured_at": "2026-08-03T00:00:00+08:00"
+  },
+
+  "firecrawl": {
+    "title": "",
+    "markdown": "",
+    "metadata": {}
+  },
+
+  "structured": null,
+
+  "error": {
+    "type": "UnsupportedContent",
+    "message": "LinkedIn Company Page is not supported by Firecrawl and does not provide a stable article body for content analysis."
+  }
+}

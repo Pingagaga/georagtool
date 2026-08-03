@@ -1,0 +1,42 @@
+{
+  "case_id": "case_012",
+  "citation_id": "citation_005",
+  "source_url": "https://learning.xms.tw/media/2311",
+  "status": "success",
+  "firecrawl": {
+    "markdown": "列印日期 : 2026/07/31台灣數位訓練課程\n\n1. [知識庫](https://learning.xms.tw/km/3)\n2. [目錄總覽](https://learning.xms.tw/dir)\n3. [操作手冊](https://learning.xms.tw/dir/2380)\n4. [系統管理](https://learning.xms.tw/km/2381)\n\n## 設計 banner 背景圖片              - [分享](https://learning.xms.tw/media/2311\\#)  - [QR code](https://learning.xms.tw/media/2311\\#\\#\\#\\#) - [列印](https://learning.xms.tw/media/2311\\#)\n\n瀏覽: 1188, 最近修訂: 2024-10-20\n\n## 設計 banner 背景圖片\n\n- [分享](https://learning.xms.tw/media/2311#)  - [QR code](https://learning.xms.tw/media/2311####)\n- [列印](https://learning.xms.tw/media/2311#)\n\n\n瀏覽: 1188, 最近修訂: 2024-10-20\n\nbanner 是網頁的主要視覺，為了在不同寬度的手機、平板、電腦上有更好的呈現，設計時就需要特別注意一些特性，例如：原來為電腦設計的圖片，在手機顯示時，因為寬度明顯變窄，高度固定的情況下，圖片置中時兩邊就會被裁掉 (如下圖)。\n\n![8f246ba135625ebe5748633c8b14d164.png](https://learning.xms.tw/sysdata/attach/media.2311/8f246ba135625ebe5748633c8b14d164.png)\n\n看起來好像很複雜，其實主要的重點只有 3 項：\n\n1. 重要資訊放中間 (旁邊可能會被裁掉)\n2. 適合的高度 (太大，內容的空間就變小)\n3. 手機、平板、電腦可以放不同的背景圖\n\n**螢幕 1920x1080**\n\n![763256f5d17aa7729296a429c9143f58.png](https://learning.xms.tw/sysdata/attach/media.2311/763256f5d17aa7729296a429c9143f58.png)\n\n**筆電 1280x720 (真實解析度 1920x1080，顯示比例 1:1.5)**\n\n![f218a74787a309ab3aaa296327bd06f6.png](https://learning.xms.tw/sysdata/attach/media.2311/f218a74787a309ab3aaa296327bd06f6.png)\n\n**iphone 7 plus 414x736 (真實解析度 1242x2208，顯示比例 1:3)**\n\n![9038abfd366ca30c929c495aa8104279.png](https://learning.xms.tw/sysdata/attach/media.2311/9038abfd366ca30c929c495aa8104279.png)\n\n雖然系統也提供 banner 圖片輪播的方法，但主要的設計重點類似，以下就以單張圖片為例，說明主要流程與重點：\n\n附件:\n\n- 1.\n\n\n\n[不同裝置的 banner 效果.png (927.9 KB)](https://learning.xms.tw/filedownload/9850)\n\n- 2.\n\n\n\n[設計 banner 背景圖.pptx (4.7 MB)](https://learning.xms.tw/filedownload/9851)\n\n\n重點",
+    "metadata": {
+      "og:description": "banner 是網頁的主要視覺，為了在不同寬度的手機、平板、電腦上有更好的呈現，設計時就需要特別注意一些特性，例如：原來為電腦設計的圖片，在手機顯示時，因為寬度明顯變窄，高度固定的情況下，圖片置中時兩邊就會被裁掉 (如下圖)。 看起來好像很複雜，其實主要的重點只有 3 項： 重要資訊放中間 (旁邊可能會被裁掉) 適合的高度 (太大，內容的空間就變小) 手機、平板、電腦可以放不同的背景圖 螢幕 19…",
+      "ogUrl": "https://learning.xms.tw/media/2311",
+      "viewport": "width=device-width, initial-scale=1",
+      "msapplication-config": "none",
+      "ogSiteName": "台灣數位訓練課程",
+      "og:site_name": "台灣數位訓練課程",
+      "fb:app_id": "102440169893388",
+      "og:url": "https://learning.xms.tw/media/2311",
+      "language": "zh-tw",
+      "title": "設計 banner 背景圖片 | 台灣數位訓練課程",
+      "ogTitle": "設計 banner 背景圖片 | 台灣數位訓練課程",
+      "description": "banner 是網頁的主要視覺，為了在不同寬度的手機、平板、電腦上有更好的呈現，設計時就需要特別注意一些特性，例如：原來為電腦設計的圖片，在手機顯示時，因為寬度明顯變窄，高度固定的情況下，圖片置中時兩邊就會被裁掉 (如下圖)。 看起來好像很複雜，其實主要的重點只有 3 項： 重要資訊放中間 (旁邊可能會被裁掉) 適合的高度 (太大，內容的空間就變小) 手機、平板、電腦可以放不同的背景圖 螢幕 19…",
+      "og:title": "設計 banner 背景圖片 | 台灣數位訓練課程",
+      "favicon": "https://learning.xms.tw/sysdata/siteInfo/c9bb_16x16.ico",
+      "scrapeId": "019fb71e-ed01-752f-b92b-88ef2119daac",
+      "sourceURL": "https://learning.xms.tw/media/2311",
+      "url": "https://learning.xms.tw/media/2311",
+      "statusCode": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "timezone": "America/New_York",
+      "proxyUsed": "basic",
+      "cacheState": "miss",
+      "indexId": "ab1cbdef-0710-436c-aaaa-1104700404e7",
+      "creditsUsed": 1,
+      "concurrencyLimited": false
+    },
+    "title": "設計 banner 背景圖片 | 台灣數位訓練課程",
+    "_response": {
+      "success": true
+    }
+  },
+  "structured": null,
+  "error": null
+}

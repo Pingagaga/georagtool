@@ -1,0 +1,44 @@
+{
+  "case_id": "case_003",
+  "prompt": "Google Ads 如何投放廣告？",
+  "expected_url_count": 7,
+  "success_count": 7,
+  "failed_count": 0,
+  "resources": [
+    {
+      "citation_id": "citation_001",
+      "source_url": "https://adbest.com.tw/blog/what-is-google-ads/",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_002",
+      "source_url": "https://ilinker.ai/google%E5%BB%A3%E5%91%8A%E6%8A%95%E6%94%BE/",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_003",
+      "source_url": "https://sleekflow.io/zh-hk/blog/google-%E5%BB%A3%E5%91%8A",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_004",
+      "source_url": "https://frankchiu.io/seo-google-ads-apply-intro/",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_005",
+      "source_url": "https://support.google.com/google-ads/answer/6324971?hl=zh-HK",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_006",
+      "source_url": "https://www.awoo.ai/zh-hant/blog/google-ads/",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_007",
+      "source_url": "https://deepview.com.tw/blog/google-ads-guide-for-beginners-complete-10-step-ad-campaign/",
+      "status": "success"
+    }
+  ]
+}

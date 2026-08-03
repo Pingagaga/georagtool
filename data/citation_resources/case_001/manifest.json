@@ -1,0 +1,39 @@
+{
+  "case_id": "case_001",
+  "prompt": "Google Ads要錢嗎？",
+  "expected_url_count": 6,
+  "success_count": 5,
+  "failed_count": 1,
+  "resources": [
+    {
+      "citation_id": "citation_001",
+      "source_url": "https://support.google.com/google-ads/answer/2375454?hl=zh-Hant",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_002",
+      "source_url": "https://www.gads.tw/ads-cost",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_003",
+      "source_url": "https://support.google.com/adsense/answer/6242051?hl=zh-Hant",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_004",
+      "source_url": "https://www.g-ads.tw/ads-cost",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_005",
+      "source_url": "https://ajmartech.com/blogs/all-articles/google-ads-cost-guide",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_006",
+      "source_url": "https://www.threads.com/@naen0505/post/DPOzqHCCfxA/%E5%AE%A2%E6%88%B6%E8%AA%AA%E4%BB%96%E8%A6%81%E4%B8%8Bmeta-%E5%92%8C-google-ads-%E7%9A%84%E5%BB%A3%E5%91%8A%E6%AF%8F%E6%9C%88%E9%A0%90%E7%AE%97%E6%98%AF3000-6000%E5%85%83%E5%A5%BD%E5%96%94%E9%82%A3%E6%82%A8%E8%87%AA%E5%B7%B1%E6%8A%95%E6%94%BE%E8%A9%A6%E8%A9%A6",
+      "status": "failed"
+    }
+  ]
+}

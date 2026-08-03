@@ -1,0 +1,16 @@
+{
+  "case_id": "case_007",
+  "citation_id": "citation_001",
+  "source_url": "https://www.facebook.com/nccu.edu.tw/posts/%E5%A4%A7%E5%AD%B8%E5%95%8F%E8%AA%BF%E6%9F%A52025%E9%AB%98%E4%B8%AD%E7%94%9F%E6%9C%80%E6%84%9B%E7%99%BE%E5%A4%A7%E7%86%B1%E9%96%80%E7%A7%91%E7%B3%BB%E5%9C%8B%E7%AB%8B%E6%94%BF%E6%B2%BB%E5%A4%A7%E5%AD%B8%E6%B3%95%E5%BE%8B%E5%AD%B8%E7%B3%BB%E7%8D%B2%E7%AC%AC%E4%B8%80%E5%90%8D%EF%B8%8F%E1%90%9F%E1%90%9F%E5%89%8D%E5%8D%81%E5%90%8D%E5%B0%9A%E6%9C%89%E6%94%BF%E5%A4%A7%E5%BF%83%E7%90%86%E7%B3%BB%E5%92%8C%E6%94%BF%E5%A4%A7%E5%82%B3%E9%99%A2%E5%A4%A7%E4%B8%80%E5%A4%A7%E4%BA%8C%E4%B8%8D%E5%88%86%E7%B3%BB%E6%94%BF%E5%A4%A7%E9%9F%93%E6%96%87%E7%B3%BB%E6%94%BF%E5%A4%A7%E5%A4%96%E4%BA%A4%E7%B3%BB%E6%94%BF%E5%A4%A7%E9%87%91%E8%9E%8D%E7%B3%BB%E5%90%8C%E7%99%BB%E7%99%BE%E5%90%8D%E5%85%A7%E6%84%9F/1068179275351868/",
+  "status": "failed",
+  "firecrawl": {
+    "title": "",
+    "markdown": "",
+    "metadata": {}
+  },
+  "structured": null,
+  "error": {
+    "type": "RuntimeError",
+    "message": "Firecrawl HTTP 403: {'success': False, 'error': 'We apologize for the inconvenience but we do not support this site. If you are part of an enterprise and want to have a further conversation about this, please fill out our intake form here: https://fk4bvu0n5qp.typeform.com/to/Ej6oydlg'}"
+  }
+}

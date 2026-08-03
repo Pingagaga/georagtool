@@ -1,0 +1,16 @@
+{
+  "case_id": "case_004",
+  "citation_id": "citation_001",
+  "source_url": "https://www.threads.com/@burri3188/post/DNfVRB6z_iG/%E5%A6%82%E6%9E%9C%E4%BD%A0%E6%83%B3%E4%B8%80%E6%AC%A1%E6%8B%BF%E4%B8%8B-google-ads-%E4%B9%9D%E5%BC%B5%E8%AD%89%E7%85%A7%E5%BB%BA%E8%AD%B0%E7%9A%84%E5%AD%B8%E7%BF%92%E4%B8%BB%E8%BB%B8%E6%98%AF-%E4%BB%A5%E6%90%9C%E5%B0%8B%E5%BB%A3%E5%91%8A-search-ads-%E7%82%BA%E6%A0%B8%E5%BF%83%E5%A4%9A%E5%AA%92%E9%AB%94%E5%BB%A3%E5%91%8A-display-ads-%E7%82%BA%E8%BC%94-%E6%90%9C%E5%B0%8B%E5%BB%A3%E5%91%8A%E8%AA%8D%E8%AD%89",
+  "status": "failed",
+  "firecrawl": {
+    "title": "",
+    "markdown": "",
+    "metadata": {}
+  },
+  "structured": null,
+  "error": {
+    "type": "RuntimeError",
+    "message": "Firecrawl HTTP 403: {'success': False, 'error': 'We apologize for the inconvenience but we do not support this site. If you are part of an enterprise and want to have a further conversation about this, please fill out our intake form here: https://fk4bvu0n5qp.typeform.com/to/Ej6oydlg'}"
+  }
+}

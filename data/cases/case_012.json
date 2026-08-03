@@ -1,0 +1,22 @@
+{
+  "case_id": "case_012",
+  "country": "tw",
+  "prompt": "Banner圖是什麼？",
+  "response": "「Banner」源自英文「旗幟」之意，在數位領域中通常翻譯為橫幅廣告、首頁大圖或封面圖。它是網站、社群媒體或應用程式中最顯眼的視覺區塊，主要用來傳達品牌形象、最新優惠或活動資訊。 [](https://www.grnet.com.tw/web-design/website-banner-design-n235)[www.grnet.com.tw](https://www.grnet.com.tw/web-design/website-banner-design-n235) [creativemini.com](https://creativemini.com/what-is-banner/) [zh.wikipedia.org](https://zh.wikipedia.org/zh-tw/%E6%A2%9D%E5%B9%85) \n\n常見的 Banner 類型\n\n1\\. 網站 Banner（網站橫幅）\n\n通常位於網站最上方（又稱 Header 或首頁大圖），扮演實體店面櫥窗的「黃金門面」角色。好的網站 Banner 通常包含高畫質情境圖、精簡的標題文案，以及引導使用者點擊的「行動呼籲按鈕（CTA）」。 [](https://www.grnet.com.tw/web-design/website-banner-design-n235)\n\n- 常見尺寸： 電腦滿版常見為 1920 × 1080 像素，但需特別注意手機與電腦版的雙端優化，以免重要資訊在小螢幕上被裁切。 [](https://www.grnet.com.tw/web-design/website-banner-design-n235)[annych.com](https://annych.com/banner-size/) [learning.xms.tw](https://learning.xms.tw/media/2311) \n\n2\\. 廣告 Banner（數位橫幅廣告）\n\n這類 Banner 通常出現在網頁邊欄、新聞網站或搜尋引擎聯播網中（如 Google 多媒體廣告、Yahoo 原生廣告）。 [](https://creativemini.com/what-is-banner/)[www.youtube.com](https://www.youtube.com/watch?v=hdFqZmHnF3c) \n\n- 常見尺寸： 由於版位多樣，尺寸規格達上萬種，常見的有 300 × 250（矩形廣告）、728 × 90（頁首橫幅）等。\n\n3\\. 社群媒體 Banner（封面圖）\n\n指 Facebook 社團/粉絲專頁、YouTube 頻道、X（前 Twitter）或 LinkedIn 個人檔案頁面上方的橫幅圖片。這類 Banner 主要用來定調個人或品牌的調性與風格。 [](https://www.canva.com/zh_tw/create/banners/)[www.canva.com](https://www.canva.com/zh_tw/create/banners/) \n\n一個好的 Banner 應具備哪些元素？\n\n1. 明確的主旨： 一秒內讓人知道你想推廣什麼活動或傳遞什麼資訊。\n2. 高質感且相關的圖片： 使用符合品牌調性的照片或插畫，避免使用雜亂無章的背景。\n3. 吸睛的標題與按鈕： 文案需簡潔有力，若為活動 Banner，必須加上如「立即購買」、「了解更多」等按鈕來引導點擊。 [](https://www.grnet.com.tw/web-design/website-banner-design-n235)[blog.accupass.com](https://blog.accupass.com/guide-to-design-the-best-event-banners.html) \n\n製作 Banner 時，善用線上設計工具如 [Canva 横幅製作工具](https://www.canva.com/zh_tw/create/banners/)，即可套用豐富的版面配置、字型及圖片來完成專屬設計。 [](https://www.canva.com/zh_tw/create/banners/)\n\n針對網頁Banner和廣告橫幅，以下影片提供了非常實用的新手教學，教你如何避開設計地雷：\n\n[如何設計網頁Banner和廣告橫幅呢？就以符合Yahoo雅虎原生 ... 觀看次數：1130 · 3 年前 YouTube · 通訊兵中尉-國平老](https://www.youtube.com/watch?v=hdFqZmHnF3c)",
+  "model": "Google AI Overviews",
+  "volume": 70,
+  "fanout_queries": [],
+  "cited_urls": [
+    "https://www.grnet.com.tw/web-design/website-banner-design-n235",
+    "https://creativemini.com/what-is-banner/",
+    "https://zh.wikipedia.org/zh-tw/%E6%A2%9D%E5%B9%85",
+    "https://annych.com/banner-size/",
+    "https://learning.xms.tw/media/2311",
+    "https://www.youtube.com/watch?v=hdFqZmHnF3c",
+    "https://www.canva.com/zh_tw/create/banners/",
+    "https://blog.accupass.com/guide-to-design-the-best-event-banners.html"
+  ],
+  "found_but_not_cited_urls": [],
+  "updated": "2026-07-22",
+  "source_row": 12
+}

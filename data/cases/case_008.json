@@ -1,0 +1,18 @@
+{
+  "case_id": "case_008",
+  "country": "tw",
+  "prompt": "Google廣告多少錢？",
+  "response": "Google 廣告沒有最低預算限制，費用取決於您的出價策略與產業競爭度。台灣中小企業平均月預算約為台幣 \\$5,000 到 \\$50,000。計費方式分為三種： [](https://ajmartech.com/blogs/all-articles/google-ads-cost-guide)[ajmartech.com](https://ajmartech.com/blogs/all-articles/google-ads-cost-guide) \n\n- 每次點擊付費 (CPC)：使用者點擊才收費。搜尋廣告每次點擊約台幣 \\$3 到 \\$300。\n- 每千次曝光付費 (CPM)：按廣告曝光次數計費（適合品牌曝光），多媒體廣告每千次約 \\$30 到 \\$150。\n- 每次轉換付費 (CPA)：按實際達成名單或購買次數收費。 [](https://ajmartech.com/blogs/all-articles/google-ads-cost-guide)\n\n如需精準評估，可直接使用 [Google Ads 關鍵字規劃工具](https://ads.google.com/) 查看您的目標關鍵字出價範圍。若委託行銷公司代操，通常需額外支付總廣告費 15% 到 25% 或每月約 \\$8,000 至 \\$30,000 的管理費。 [](https://ajmartech.com/blogs/all-articles/google-ads-cost-guide)[www.tasker.com.tw](https://www.tasker.com.tw/price/google-ads)",
+  "model": "Google AI Overviews",
+  "volume": 250,
+  "fanout_queries": [],
+  "cited_urls": [
+    "https://ajmartech.com/blogs/all-articles/google-ads-cost-guide",
+    "https://www.tasker.com.tw/price/google-ads"
+  ],
+  "found_but_not_cited_urls": [
+    "https://support.google.com/google-ads/answer/2375454?hl=zh-Hant"
+  ],
+  "updated": "2026-07-24",
+  "source_row": 8
+}

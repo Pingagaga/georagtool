@@ -1,0 +1,24 @@
+{
+  "case_id": "case_006",
+  "citation_id": "citation_004",
+  "source_url": "https://www.facebook.com/mercurydigitaltw/mentions/",
+  "status": "unsupported",
+  "capture": {
+    "method": "manual",
+    "reason": "facebook_mentions_page",
+    "captured_by": "Yun",
+    "captured_at": "2026-08-03T14:30:00+08:00"
+  },
+  "firecrawl": {
+    "title": null,
+    "markdown": null,
+    "metadata": {
+      "platform": "Facebook"
+    }
+  },
+  "structured": null,
+  "error": {
+    "type": "unsupported_content",
+    "message": "Facebook mentions page is a dynamic navigation page and does not contain a stable content body."
+  }
+}

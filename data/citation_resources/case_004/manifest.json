@@ -1,0 +1,44 @@
+{
+  "case_id": "case_004",
+  "prompt": "Google Ads認證好考嗎？",
+  "expected_url_count": 7,
+  "success_count": 6,
+  "failed_count": 1,
+  "resources": [
+    {
+      "citation_id": "citation_001",
+      "source_url": "https://www.threads.com/@burri3188/post/DNfVRB6z_iG/%E5%A6%82%E6%9E%9C%E4%BD%A0%E6%83%B3%E4%B8%80%E6%AC%A1%E6%8B%BF%E4%B8%8B-google-ads-%E4%B9%9D%E5%BC%B5%E8%AD%89%E7%85%A7%E5%BB%BA%E8%AD%B0%E7%9A%84%E5%AD%B8%E7%BF%92%E4%B8%BB%E8%BB%B8%E6%98%AF-%E4%BB%A5%E6%90%9C%E5%B0%8B%E5%BB%A3%E5%91%8A-search-ads-%E7%82%BA%E6%A0%B8%E5%BF%83%E5%A4%9A%E5%AA%92%E9%AB%94%E5%BB%A3%E5%91%8A-display-ads-%E7%82%BA%E8%BC%94-%E6%90%9C%E5%B0%8B%E5%BB%A3%E5%91%8A%E8%AA%8D%E8%AD%89",
+      "status": "failed"
+    },
+    {
+      "citation_id": "citation_002",
+      "source_url": "https://www.yesharris.com/google-analytics-basic/gaiq/",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_003",
+      "source_url": "https://vocus.cc/article/698311f3fd89780001a76c69",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_004",
+      "source_url": "https://skillshop.withgoogle.com/intl/zh-TW_ALL/",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_005",
+      "source_url": "https://support.google.com/google-ads/answer/9702955?hl=zh-Hant",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_006",
+      "source_url": "https://dcplus.com.tw/2022/05/10/%E6%96%B0%E4%BA%BA%E9%9D%A2%E8%A9%A6%E6%95%B8%E4%BD%8D%E8%A1%8C%E9%8A%B7%E5%B7%A5%E4%BD%9C%EF%BC%8C%E8%A9%B2%E4%B8%8D%E8%A9%B2%E5%85%88%E8%80%83%E9%81%8E-google-ads-%E8%AD%89%E7%85%A7%EF%BC%9F/",
+      "status": "success"
+    },
+    {
+      "citation_id": "citation_007",
+      "source_url": "https://hiddenob.pixnet.net/blog/posts/16056604646",
+      "status": "success"
+    }
+  ]
+}

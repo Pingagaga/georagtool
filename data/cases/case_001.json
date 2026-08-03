@@ -1,0 +1,20 @@
+{
+  "case_id": "case_001",
+  "country": "tw",
+  "prompt": "Google Ads要錢嗎？",
+  "response": "使用 Google Ads 投放廣告  需要付費  。註冊帳戶與建立廣告活動完全免費，系統僅會在用戶的廣告  被點擊  、  觀看  或  實際達成互動  時才開始收費。廣告預算可彈性自訂，中小企業每月最低預算約為台幣 5,000 元至 30,000 元，搜尋廣告每次點擊約為台幣 3 元至 300 元。        [](https://support.google.com/google-ads/answer/2375454?hl=zh-Hant)  [support.google.com](https://support.google.com/google-ads/answer/2375454?hl=zh-Hant) [www.gads.tw](https://www.gads.tw/ads-cost) [support.google.com](https://support.google.com/adsense/answer/6242051?hl=zh-Hant) [www.g-ads.tw](https://www.g-ads.tw/ads-cost) [ajmartech.com](https://ajmartech.com/blogs/all-articles/google-ads-cost-guide) \n\n透過以下詳細拆解，您可以更清楚 Google Ads 的收費與運作方式：\n\n1\\. 什麼時候會收費？\n\nGoogle Ads 主要採取「  按成效計費  」，常見的計費方式包含：\n\n- 每次點擊付費 (CPC)  ：當用戶在 Google 上搜尋關鍵字並點擊您的廣告時才收費；如果廣告有曝光但沒人點擊，則  完全免費  。\n- 每千次曝光費用 (CPM)  ：多半應用於多媒體廣告（GDN），依據廣告顯示的次數計費。\n- 每次觀看費用 (CPV)  ：適用於 YouTube 影片廣告，當觀眾觀看您的影片達 30 秒或與廣告互動（以先發生者為準）時才收費。          [](https://www.g-ads.tw/ads-cost)  [www.g-ads.tw](https://www.g-ads.tw/ads-cost) \n\n2\\. 廣告費用如何控管？\n\n在投放廣告時，系統會要求您設定  每日預算  ：        [](https://support.google.com/google-ads/answer/2375454?hl=zh-Hant)  [support.google.com](https://support.google.com/google-ads/answer/2375454?hl=zh-Hant) [www.gads.tw](https://www.gads.tw/ads-cost) \n\n- 您可以隨時設定每日的平均花費上限，例如設定每天預算為台幣 100 元，到達上限後廣告就會自動停止顯示，確保費用不會超出預期。\n- 您也可以隨時調整或暫停廣告活動，沒有綁約問題。          [](https://support.google.com/google-ads/answer/2375454?hl=zh-Hant)  [support.google.com](https://support.google.com/google-ads/answer/2375454?hl=zh-Hant) [www.gads.tw](https://www.gads.tw/ads-cost) \n\n需要注意的是，若您聘請專業的行銷代理商或廣告代操人員協助管理，通常還會另外產生一筆  代操服務費  （一般行情約為廣告費用的 10%～20% 或固定月費）。        [](https://www.threads.com/@naen0505/post/DPOzqHCCfxA/%E5%AE%A2%E6%88%B6%E8%AA%AA%E4%BB%96%E8%A6%81%E4%B8%8Bmeta-%E5%92%8C-google-ads-%E7%9A%84%E5%BB%A3%E5%91%8A%E6%AF%8F%E6%9C%88%E9%A0%90%E7%AE%97%E6%98%AF3000-6000%E5%85%83%E5%A5%BD%E5%96%94%E9%82%A3%E6%82%A8%E8%87%AA%E5%B7%B1%E6%8A%95%E6%94%BE%E8%A9%A6%E8%A9%A6)  [www.threads.com](https://www.threads.com/@naen0505/post/DPOzqHCCfxA/%E5%AE%A2%E6%88%B6%E8%AA%AA%E4%BB%96%E8%A6%81%E4%B8%8Bmeta-%E5%92%8C-google-ads-%E7%9A%84%E5%BB%A3%E5%91%8A%E6%AF%8F%E6%9C%88%E9%A0%90%E7%AE%97%E6%98%AF3000-6000%E5%85%83%E5%A5%BD%E5%96%94%E9%82%A3%E6%82%A8%E8%87%AA%E5%B7%B1%E6%8A%95%E6%94%BE%E8%A9%A6%E8%A9%A6) \n\n如需了解新手如何靈活設定廣告小預算並避免亂花錢：\n\n[Google Ads「小預算」投放策略，五大策略讓你有效控制廣告 ... Sorla - 超簡單行銷 YouTube · 2024年1月31日](https://www.youtube.com/watch?v=dzdTPjx4l4Y)\n\n想進一步評估廣告成本嗎？如果您能告訴我：\n\n- 您預計推廣的  產品或服務是什麼  ？\n- 您的  預計每月廣告預算  約為多少台幣？\n\n我可以協助您初步評估目前的  市場點擊成本 (CPC)  以及適合的  廣告投放策略  。",
+  "model": "Google AI Overviews",
+  "volume": 4600,
+  "fanout_queries": [],
+  "cited_urls": [
+    "https://support.google.com/google-ads/answer/2375454?hl=zh-Hant",
+    "https://www.gads.tw/ads-cost",
+    "https://support.google.com/adsense/answer/6242051?hl=zh-Hant",
+    "https://www.g-ads.tw/ads-cost",
+    "https://ajmartech.com/blogs/all-articles/google-ads-cost-guide",
+    "https://www.threads.com/@naen0505/post/DPOzqHCCfxA/%E5%AE%A2%E6%88%B6%E8%AA%AA%E4%BB%96%E8%A6%81%E4%B8%8Bmeta-%E5%92%8C-google-ads-%E7%9A%84%E5%BB%A3%E5%91%8A%E6%AF%8F%E6%9C%88%E9%A0%90%E7%AE%97%E6%98%AF3000-6000%E5%85%83%E5%A5%BD%E5%96%94%E9%82%A3%E6%82%A8%E8%87%AA%E5%B7%B1%E6%8A%95%E6%94%BE%E8%A9%A6%E8%A9%A6"
+  ],
+  "found_but_not_cited_urls": [],
+  "updated": "2026-07-06",
+  "source_row": 1
+}

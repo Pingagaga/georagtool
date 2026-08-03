@@ -1,0 +1,14 @@
+{
+  "case_id": "case_011",
+  "prompt": "gdn總共分為哪幾種投遞方式？",
+  "expected_url_count": 1,
+  "success_count": 1,
+  "failed_count": 0,
+  "resources": [
+    {
+      "citation_id": "citation_001",
+      "source_url": "https://roddayeye.pixnet.net/blog/posts/15312971290",
+      "status": "success"
+    }
+  ]
+}

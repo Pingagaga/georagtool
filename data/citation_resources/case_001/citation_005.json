@@ -1,0 +1,70 @@
+{
+  "case_id": "case_001",
+  "citation_id": "citation_005",
+  "source_url": "https://ajmartech.com/blogs/all-articles/google-ads-cost-guide",
+  "status": "success",
+  "firecrawl": {
+    "markdown": "[跳至內容](https://ajmartech.com/blogs/all-articles/google-ads-cost-guide#MainContent)\n\n## 商品已加入購物車\n\n[檢視購物車](https://ajmartech.com/cart)\n結帳\n繼續購物\n\n![Google 廣告費用怎麼算？預算規劃與成本控制完整拆解](https://ajmartech.com/cdn/shop/articles/Google_5_06bfadb4-8efa-4026-ac9d-dd1e64c249cd.png?v=1782461555&width=1100)\n\n很多人問我「Google 廣告一個月到底要花多少錢？」\n\nGoogle 官方的答案是「沒有最低預算限制」，技術上這沒錯。但如果你真的只投個幾百塊，基本上什麼都看不到。台灣中小企業實際投放 Google 廣告，月預算大概落在 NT$5,000 到 NT$50,000 之間，但真正花掉的錢往往不只這些——素材製作、Landing Page、人力時間都是成本。\n\n這篇幫你把 Google 廣告的所有費用攤開來看，從計費方式、各產業的點擊行情，到不同預算該怎麼分配，讓你在開始投廣告之前就知道錢會花在哪裡。\n\n| 費用項目 | 費用範圍（新台幣） | 說明 |\n| --- | --- | --- |\n| **搜尋廣告 CPC** | NT$3～NT$300／次點擊 | 依產業和關鍵字競爭度差異極大 |\n| **多媒體廣告 CPC** | NT$1～NT$30／次點擊 | 比搜尋廣告便宜，但轉換率通常較低 |\n| **影片廣告 CPV** | NT$1～NT$5／次觀看 | YouTube 廣告，適合品牌曝光 |\n| **小企業月預算** | NT$5,000～NT$30,000 | 測試階段或小規模投放 |\n| **中小企業月預算** | NT$30,000～NT$100,000 | 穩定投放、多組廣告活動 |\n| **代操服務費** | 廣告費的 15%～25% | 找代操公司額外收取的管理費 |\n\n**本文內容：** [三種計費方式](https://ajmartech.com/blogs/all-articles/google-ads-cost-guide#billing) → [各產業點擊費用](https://ajmartech.com/blogs/all-articles/google-ads-cost-guide#industry-cpc) → [預算怎麼抓](https://ajmartech.com/blogs/all-articles/google-ads-cost-guide#budget-plan) → [隱藏成本](https://ajmartech.com/blogs/all-articles/google-ads-cost-guide#hidden-cost) → [判斷是不是在浪費錢](https://ajmartech.com/blogs/all-articles/google-ads-cost-guide#waste-check) → [常見問題](https://ajmartech.com/blogs/all-articles/google-ads-cost-guide#faq)\n\n## Google 廣告的三種計費方式\n\nGoogle 廣告不是「月租費」的概念，而是根據使用者跟你的廣告互動了什麼來收費。主要有三種計費方式，選哪種取決於你的廣告目標。\n\n### CPC：每次點擊付費\n\nCPC（Cost Per Click）是最常見的計費方式，使用者點了你的廣告，你才付錢。搜尋廣告幾乎都用這種方式。好處是你付的每一塊錢都代表有人實際造訪了你的網站。\n\n但要注意，你設定的「最高出價」不等於實際付的錢。Google 的競價機制會根據你的廣告品質分數和競爭對手的出價來計算，實際支付的金額通常會低於你的最高出價。\n\n### CPM：每千次曝光付費\n\nCPM（Cost Per 1,000 Impressions）是按照廣告被看到的次數來收費。適合想做品牌曝光、讓更多人認識你的情境，常用在多媒體聯播網和 YouTube 廣告。台灣市場的 CPM 通常在 NT$30 到 NT$150 之間，依產業而定。\n\n### CPA：每次轉換付費\n\nCPA（Cost Per Action）是按照實際轉換來收費——使用者填了表單、打了電話、或完成購買，你才付錢。聽起來最划算，但前提是你的帳戶已經累積足夠的轉換數據，Google 的 AI 才有辦法幫你優化。剛開始投放的新帳戶通常不適合直接用 CPA。\n\n## 台灣各產業的平均點擊費用\n\n很多人最想知道的就是「我的產業大概要花多少錢？」這沒有標準答案，因為 Google 廣告是競價機制，越多人搶同一個關鍵字，價格就越高。但我整理了一些台灣市場的參考範圍，讓你有個概念。\n\n| 產業別 | 搜尋廣告 CPC 參考範圍 | 競爭程度 |\n| --- | --- | --- |\n| **法律／保險／金融** | NT$50～NT$300+ | 極高 |\n| **房地產／貸款** | NT$30～NT$200 | 高 |\n| **醫療／健康** | NT$20～NT$100 | 中高 |\n| **教育／補習** | NT$15～NT$80 | 中高 |\n| **電商／零售** | NT$5～NT$50 | 中 |\n| **餐飲／美容** | NT$5～NT$40 | 中低 |\n| **居家服務** | NT$10～NT$50 | 中 |\n| **B2B 服務** | NT$20～NT$150 | 中高 |\n\n這些數字只是參考。實際費用取決於你的關鍵字選擇、廣告品質分數、投放時段和地區。最準確的做法是用 Google 的「關鍵字規劃工具」查詢你目標關鍵字的實際出價範圍。\n\n一個重要觀念：CPC 高不代表不值得投。如果你賣的是高單價產品（比如裝潢、留學代辦），一個客戶的價值可能是幾萬甚至幾十萬，那即使 CPC 要 NT$100，只要轉換率合理，投資報酬率還是很好。\n\n**📬 Google 廣告預算還有更多眉角**\n\n這篇講的是基礎的費用架構，我還有更多關於廣告預算分配和成本優化的進階技巧會透過電子報分享。訂閱就能第一時間收到。\n\n[→ 免費訂閱，搶先收到進階教學](https://ajmartech.com/blogs/all-articles/google-ads-cost-guide#email-subscribe)\n\n## 不同預算該怎麼投？\n\n預算多少決定了你能做什麼、不能做什麼。以下是三個常見的預算區間和對應的建議。\n\n### 月預算 NT$5,000～NT$15,000：測試水溫\n\n這個預算只夠跑一兩組搜尋廣告活動。重點不是賺錢，而是收集數據——哪些關鍵字有人搜、哪些廣告文案點擊率比較高、你的網站轉換率大概多少。\n\n我建議這個階段只投搜尋廣告，不要碰多媒體聯播網或 YouTube。把預算集中在 5～10 個最核心的關鍵字上，用詞組比對或完全比對，避免廣泛比對把預算燒在不相關的搜尋上。\n\n### 月預算 NT$15,000～NT$50,000：穩定投放\n\n這個區間你可以開始做比較有系統的投放了。建議把預算分成兩塊：70% 放在已驗證有效的搜尋廣告，30% 用來測試新的關鍵字或廣告類型（比如 [PMax 最高成效廣告](https://ajmartech.com/blogs/all-articles/pmax-ads-guide)）。\n\n這個階段也該開始設定轉換追蹤了——不只是看有多少人點廣告，而是追蹤有多少人真正填了表單、打了電話、或完成購買。沒有轉換數據，你根本無法判斷廣告有沒有效。\n\n### 月預算 NT$50,000 以上：全面佈局\n\n預算到這個等級，你可以同時跑搜尋廣告、PMax、再行銷，甚至加上 YouTube 影片廣告做品牌曝光。關鍵是要有清楚的歸因模型——每個管道各貢獻了多少轉換，才知道錢該怎麼調配。\n\n到這個階段，如果你不是自己很懂廣告操作，可以認真考慮 [找一家靠譜的代操公司](https://ajmartech.com/blogs/all-articles/google-ads-agency-guide) 來幫你管理。省下的時間拿去做生意，可能比自己摸索更划算。\n\n**💬 我自己的經驗**\n\n我自己投廣告和幫客戶投廣告，最深的體悟是：小預算最怕「什麼都想試」。我看過太多人月預算才一兩萬，卻同時開了搜尋廣告、多媒體廣告、YouTube 廣告三條線，結果每條線的數據都不夠，什麼結論都得不出來。\n\n我建議月預算在三萬以下的，先把搜尋廣告做好就好。等搜尋廣告穩定有轉換了，再慢慢擴展到其他類型。同時，如果你的產品是靠長期曝光才會成交的（比如 B2B 服務），廣告跟 [SEO](https://ajmartech.com/blogs/all-articles/seo-complete-guide) 應該一起做——廣告負責短期帶流量，SEO 負責長期降低獲客成本。\n\n## 常被忽略的隱藏成本\n\n大部分講 Google 廣告費用的文章只算「廣告費」，但實際上還有好幾筆開銷容易被忽略。\n\n**素材製作費用：** 搜尋廣告只需要文字，成本低。但如果你要投多媒體廣告或 YouTube，就需要圖片和影片。外包製作一組廣告圖大概 NT$500 到 NT$2,000，影片素材（含拍攝和後製）更貴。\n\n**Landing Page（到達頁面）：** 廣告帶來的流量要落在一個能促成轉換的頁面上。如果你的網站本身體驗不好、載入太慢、或是缺少明確的行動呼籲，再多的廣告費都是浪費。有些企業會另外製作專屬的 [Landing Page](https://ajmartech.com/blogs/all-articles/landing-page-guide)，這也是一筆費用。\n\n**人力時間：** Google 廣告不是「設定完就不用管」的東西。你需要定期檢查數據、調整出價、排除無效的搜尋字詞、測試新的廣告文案。如果是自己操作，每週至少要花 2～3 小時；如果找代操，就是前面提到的服務費。\n\n**學習成本：** Google Ads 的介面和功能很複雜，新手可能要花一兩週才能搞懂基本操作。這段學習期間投出去的廣告費，某種程度上也是「繳學費」。如果想減少這段學習曲線，可以先看看 [Google Ads 新手教學](https://ajmartech.com/blogs/all-articles/google-ads-tutorial)。\n\n## 怎麼判斷廣告是不是在浪費錢？\n\n花了錢不代表有效果。以下幾個訊號可以幫你判斷廣告費有沒有花在刀口上。\n\n**看 ROAS（廣告投資報酬率）：** 如果你是電商，最直接的指標就是 ROAS = 廣告帶來的營收 ÷ 廣告費用。台灣電商的 ROAS 基準大約在 3～5 之間，也就是花一塊錢廣告費要帶回三到五塊錢的營收才算及格。\n\n**看 CPA（每次轉換成本）：** 如果你是服務業，重點是看每獲得一個諮詢或名單要花多少錢。這個數字需要跟你的客戶終身價值來比——如果一個客戶平均能帶來 NT$50,000 的收入，那 CPA 在 NT$1,000 以內都是合理的。\n\n**檢查搜尋字詞報表：** 定期進到 Google Ads 後台看「搜尋字詞」報表，確認觸發你廣告的搜尋是不是真的跟你的業務相關。我常看到客戶的廣告被完全不相關的搜尋觸發，白白浪費一堆點擊費用。善用「排除關鍵字」功能，可以省下 20%～30% 的無效花費。\n\n**比較廣告 vs SEO 的獲客成本：** 我自己同時做 Google 廣告和 SEO，發現很多關鍵字透過 [廣告投放策略](https://ajmartech.com/blogs/all-articles/google-ads-strategy-guide) 調整後可以降低 CPC，但有些高 CPC 的關鍵字長期來看用 SEO 經營反而更划算。兩者搭配使用，才能把整體獲客成本壓到最低。\n\n## 常見問題\n\n**Q：Google 廣告有最低預算限制嗎？**\n\n沒有官方最低限制，理論上一天 NT$100 就能開始。但實務上，如果你的每日預算低於目標關鍵字的 10～20 次點擊費用，廣告幾乎不會有足夠的數據讓你做判斷。建議每日預算至少抓 NT$200～NT$500，否則等於在賭運氣。\n\n**Q：為什麼某天的花費超過我設定的每日預算？**\n\n這是 Google 的「超量放送」機制。在搜尋量較高的日子，Google 可能花到每日預算的 2 倍，但會在流量低的日子自動減少花費。整個月下來，你的總費用不會超過「每日預算 × 30.4」，所以不用緊張。\n\n**Q：Google 廣告跟 Meta 廣告哪個比較便宜？**\n\n不能直接比，因為兩者的運作方式不同。Google 搜尋廣告是攔截「已有需求」的人，CPC 通常較高但轉換率也高；Meta 廣告是主動觸及可能感興趣的人，CPC 較低但轉換路徑較長。要看哪個比較划算，得看你的產業和目標。詳細比較可以看 [Google 廣告 vs Meta 廣告](https://ajmartech.com/blogs/all-articles/google-ads-vs-meta-ads) 這篇。\n\n**Q：品質分數對費用的影響有多大？**\n\n影響非常大。品質分數是 Google 對你的關鍵字、廣告文案和到達頁面的綜合評分（1～10 分）。品質分數越高，你實際支付的 CPC 就越低，廣告排名也越好。簡單說，同樣的出價，品質分數 8 的廣告可能只要付品質分數 4 的一半費用就能拿到更好的位置。\n\n**Q：投了一個月沒效果，該繼續還是放棄？**\n\n先確認「沒效果」是什麼意思。如果是沒有曝光和點擊，可能是出價太低或關鍵字選擇有問題；如果有點擊但沒轉換，問題可能在你的網站或 Landing Page。Google 廣告通常需要 2～4 週的數據累積才能做出有意義的優化判斷。建議至少給自己三個月的測試期，但過程中要持續觀察和調整。\n\n## 延伸閱讀\n\n- [Google 廣告入門完整指南：關鍵字廣告、PMax 一次搞懂（2026）](https://ajmartech.com/blogs/all-articles/google-ads-complete-guide)\n- [Google 廣告代操怎麼選？費用、合作模式與避雷指南](https://ajmartech.com/blogs/all-articles/google-ads-agency-guide)\n- [Meta 廣告費用怎麼抓？從日預算到成效優化完整教學](https://ajmartech.com/blogs/all-articles/meta-ads-cost-budget-guide)\n\n## 最後\n\nGoogle 廣告的費用沒有標準答案，因為每個產業、每個關鍵字、每個品質分數的組合都不一樣。但有一件事是確定的：盲目投錢一定會浪費，有策略地投才能看到回報。\n\n最重要的是設好轉換追蹤、定期檢查搜尋字詞報表、以及誠實面對數據告訴你的結果。如果某個關鍵字花了很多錢但沒帶來生意，就該果斷放掉，把預算移到有效的地方。\n\n在 Google 廣告預算規劃上遇到問題？歡迎 [預約免費諮詢](https://calendly.com/contact-roylo/30min) 聊聊，我可以幫你看看目前的花費是不是合理。\n\n**參考資料：**\n\n- [Google Ads 官方說明：選擇出價和預算](https://support.google.com/google-ads/answer/2375454?hl=zh-Hant)\n- [Google Ads 官方說明：管理 Google Ads 支出](https://support.google.com/google-ads/answer/1704424?hl=zh-Hant)\n- [Google Ads 官方說明：超量放送和平均每日預算](https://support.google.com/google-ads/answer/1704443?hl=zh-Hant)\n\n資料時間：2026 年 4 月\n\n免費資源\n\n## 領取 4 份數位行銷實戰工具包\n\nMeta 廣告檢核表 + Shopify 建站清單\n\n電商網站檢查清單 \\+ SEO 實戰工具包\n\n訂閱後直接寄到信箱，之後每週收到一則行銷實戰技巧\n\n隨時可以取消訂閱，不會收到垃圾信\n\n[返回網誌](https://ajmartech.com/blogs/all-articles)\n\n![Roy｜AJ MarTech](https://cdn.shopify.com/s/files/1/0594/4397/0127/files/gempages_514933692611691764-5f6a713c-3adf-4a4e-9c6e-7345074f6797.webp?v=1782871630&width=300)\n\n## 關於作者\n\nRoy｜AJ MarTech\n\n數位行銷實戰專家，專精 Shopify、Meta、Google、SEO。這個網站是我的公開實驗室——用真實數據分享什麼有效、什麼沒用。\n\n[預約諮詢](https://calendly.com/contact-roylo/30min) [訂閱每週策略](https://ajmartech.com/blogs/all-articles/google-ads-cost-guide#article-newsletter)\n\n## 延伸閱讀\n\n[![Google 廣告投放策略：五個方向讓每一塊錢都花得值得（2026）](https://ajmartech.com/cdn/shop/articles/Google_6.png?v=1776654348&width=800)\\\\\n\\\\\nGoogle Ads\\\\\n**Google 廣告投放策略：五個方向讓每一塊錢都花得值得（2026）** \\\\\nBy LoRoy ・ 2026.04.15](https://ajmartech.com/blogs/all-articles/google-ads-strategy-guide) [![PMax 廣告是什麼？運作原理、怎麼設定，到底值不值得投（實測）](https://ajmartech.com/cdn/shop/articles/Google_4_b22fa760-9d9c-45c6-bb74-2dea7f03973b.png?v=1784085821&width=800)\\\\\n\\\\\nGoogle Ads\\\\\n**PMax 廣告是什麼？運作原理、怎麼設定，到底值不值得投（實測）** \\\\\nBy LoRoy ・ 2026.04.15](https://ajmartech.com/blogs/all-articles/pmax-ads-guide) [![Google 廣告 vs Meta 廣告：預算有限先投哪個？選錯平台等於燒錢](https://ajmartech.com/cdn/shop/articles/Google_3.png?v=1776654394&width=800)\\\\\n\\\\\nGoogle Ads\\\\\n**Google 廣告 vs Meta 廣告：預算有限先投哪個？選錯平台等於燒錢** \\\\\nBy LoRoy ・ 2026.04.15](https://ajmartech.com/blogs/all-articles/google-ads-vs-meta-ads)\n\n## 每週一封，只講能用的策略\n\n獲得可以立刻執行的數位行銷洞察\n\n輸入你的信箱免費訂閱\n\n- 選擇項目後，整個頁面將重新整理。\n- 在新視窗中開啟。\n\nshop.app\n\n# shop.app is blocked\n\nThis page has been blocked by an extension\n\n- Try disabling your extensions.\n\nERR\\_BLOCKED\\_BY\\_CLIENT\n\nReload\n\n\nThis page has been blocked by an extension\n\n![](<Base64-Image-Removed>)![](<Base64-Image-Removed>)\n\najmartech.com\n\n# ajmartech.com is blocked\n\nThis page has been blocked by an extension\n\n- Try disabling your extensions.\n\nERR\\_BLOCKED\\_BY\\_CLIENT\n\nReload\n\n\nThis page has been blocked by an extension\n\n![](<Base64-Image-Removed>)![](<Base64-Image-Removed>)",
+    "metadata": {
+      "description": "Google 廣告一個月要準備多少預算？這篇拆解關鍵字出價、單次點擊成本怎麼算、預算該怎麼分配，以及新手最常把錢燒在哪，幫你在開始投放前就抓出合理預算、控制成本不超支。, Google 廣告費用完整拆解：CPC、CPM、CPA 三種計費方式差在哪？台灣各產業搜尋廣告的平均點擊費用是多少？從月預算 5,000 到 50,000 元的不同投放策略，加上廣告素材製作、Landing Page 優化等常被忽略的隱藏成本，這篇幫你把 Google Ads 的每一筆花費都算清楚，避免白白浪費廣告預算。",
+      "theme-color": [
+        "",
+        "#fff",
+        "#fff"
+      ],
+      "og:description": "Google 廣告一個月要準備多少預算？這篇拆解關鍵字出價、單次點擊成本怎麼算、預算該怎麼分配，以及新手最常把錢燒在哪，幫你在開始投放前就抓出合理預算、控制成本不超支。",
+      "og:image:height": "1050",
+      "og:image:secure_url": "https://ajmartech.com/cdn/shop/articles/Google_5_06bfadb4-8efa-4026-ac9d-dd1e64c249cd.png?v=1782461555",
+      "ogImage": "http://ajmartech.com/cdn/shop/articles/Google_5_06bfadb4-8efa-4026-ac9d-dd1e64c249cd.png?v=1782461555",
+      "color-scheme": [
+        "light dark",
+        "light dark"
+      ],
+      "twitter:card": "summary_large_image",
+      "og:url": "https://ajmartech.com/blogs/all-articles/google-ads-cost-guide",
+      "dateModified": "2026-04-14",
+      "google-site-verification": "Znga5CMgEtHe2Cz8paNeiNnZ6Cmucx-iW7IDnDCl-II",
+      "shopify-y": "8fe6fd0c-886f-4b64-a755-afc581ecf96c",
+      "ogDescription": "Google 廣告一個月要準備多少預算？這篇拆解關鍵字出價、單次點擊成本怎麼算、預算該怎麼分配，以及新手最常把錢燒在哪，幫你在開始投放前就抓出合理預算、控制成本不超支。",
+      "headline": "Google 廣告費用怎麼算？預算規劃與成本控制完整拆解（2026）",
+      "og:image": "http://ajmartech.com/cdn/shop/articles/Google_5_06bfadb4-8efa-4026-ac9d-dd1e64c249cd.png?v=1782461555",
+      "shopify-checkout-api-token": "7652fed506e9c5162c1340ea9977eaf1",
+      "ogSiteName": "Roy｜數位行銷實戰專家",
+      "datePublished": "2026-04-14",
+      "og:title": "Google 廣告費用怎麼算？一個月最少準備多少、錢到底花去哪（2026）",
+      "viewport": [
+        "width=device-width,initial-scale=1",
+        "width=device-width, initial-scale=1.0,\n                                 maximum-scale=1.0, user-scalable=no",
+        "width=device-width, initial-scale=1.0,\n                                 maximum-scale=1.0, user-scalable=no"
+      ],
+      "og:image:width": "2000",
+      "facebook-domain-verification": "jpbxx5ekgw9mp68xz44ce217ywikab",
+      "og:site_name": "Roy｜數位行銷實戰專家",
+      "ogTitle": "Google 廣告費用怎麼算？一個月最少準備多少、錢到底花去哪（2026）",
+      "twitter:title": "Google 廣告費用怎麼算？一個月最少準備多少、錢到底花去哪（2026）",
+      "shopify-digital-wallet": "/59443970127/digital_wallets/dialog",
+      "language": "zh-TW",
+      "title": "\n      Google 廣告費用怎麼算？一個月最少準備多少、錢到底花去哪（2026）\n – Roy｜數位行銷實戰專家",
+      "og:type": "article",
+      "ogUrl": "https://ajmartech.com/blogs/all-articles/google-ads-cost-guide",
+      "twitter:description": "Google 廣告一個月要準備多少預算？這篇拆解關鍵字出價、單次點擊成本怎麼算、預算該怎麼分配，以及新手最常把錢燒在哪，幫你在開始投放前就抓出合理預算、控制成本不超支。",
+      "favicon": "https://ajmartech.com/cdn/shop/files/AJ_Logo.jpg?crop=center&height=32&v=1739262616&width=32",
+      "scrapeId": "019fb735-d1fe-71a5-8a12-b0e1a36d1e77",
+      "sourceURL": "https://ajmartech.com/blogs/all-articles/google-ads-cost-guide",
+      "url": "https://ajmartech.com/blogs/all-articles/google-ads-cost-guide",
+      "statusCode": 200,
+      "contentType": "text/html; charset=utf-8",
+      "proxyUsed": "basic",
+      "cacheState": "hit",
+      "cachedAt": "2026-07-31T07:01:59.616Z",
+      "creditsUsed": 1,
+      "concurrencyLimited": false
+    },
+    "title": "\n      Google 廣告費用怎麼算？一個月最少準備多少、錢到底花去哪（2026）\n – Roy｜數位行銷實戰專家",
+    "_response": {
+      "success": true
+    }
+  },
+  "structured": null,
+  "error": null
+}

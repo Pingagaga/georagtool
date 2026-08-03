@@ -1,0 +1,77 @@
+{
+  "case_id": "case_001",
+  "citation_id": "citation_001",
+  "source_url": "https://support.google.com/google-ads/answer/2375454?hl=zh-Hant",
+  "status": "success",
+  "source": {
+    "title": "選擇出價和預算 - Google Ads說明",
+    "language": "zh-Hant",
+    "status_code": 200,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  "raw_metrics": {
+    "character_count": 14380,
+    "line_count": 308,
+    "heading_count": 15,
+    "link_count": 114
+  },
+  "cleaned": {
+    "title": "選擇出價和預算",
+    "markdown": "# 選擇出價和預算\n\n如要在 Google 上放送廣告，您需要訂定適合的預算和出價選項。 [預算](https://support.google.com/google-ads/answer/6312) 是個別 [廣告活動](https://support.google.com/google-ads/answer/6304) 的支出上限，也就是您每天願意支付的平均金額。視您管理出價的方式而定，實際費用可能更低。\n\n**注意：** Google Ads 會每天計算預算金額。如需計算每月預算金額，請將每日預算乘以 30.4 天，也就是每月平均天數。如需詳細資訊，請參閱「 [預算總覽](https://support.google.com/google-ads/answer/10486536)」一文。使用 [預算報表](https://support.google.com/google-ads/answer/9962086) 查看每月支出上限和每月預測。\n\n[最高單次點擊出價](https://support.google.com/google-ads/answer/6326) 是指您願意為每次廣告點擊支付的最高金額。調整出價可能會影響廣告流量，以及相應產生的 [投資報酬率](https://support.google.com/google-ads/answer/14090)。如果提高出價，廣告活動獲得的流量可能會更多，但費用可能也會更高。如果降低出價，廣告活動獲得的點擊和 [轉換](https://support.google.com/google-ads/answer/6365) 次數可能會減少。\n\n本文說明廣告活動預算的運作方式、各種出價選項，以及在新廣告活動中設定出價和預算的步驟。\n\n**本頁內容**\n\n- [操作說明](https://support.google.com/google-ads/answer/2375454?hl=zh-Hant#bid_and_budget)\n- [廣告活動預算的運作方式](https://support.google.com/google-ads/answer/2375454?hl=zh-Hant#campaign_budget)\n- [出價的運作方式](https://support.google.com/google-ads/answer/2375454?hl=zh-Hant#bidding_options)\n\n* * *\n\n## 操作說明\n\n1. 前往「廣告活動」選單 ![「廣告活動」圖示](https://lh3.googleusercontent.com/PYU3UjHzepAdY-dWS9ObIzq9WgLGS0SZeJS1hQ0Be3fxCIUQZaWCrR4HoYqriXSEbQ=w40) 中的「 [廣告活動](https://ads.google.com/aw/campaigns)」。\n2. 依序選取加號按鈕 ![](https://storage.googleapis.com/support-kms-prod/Ns5o4jgOAKaw8NnTPog3UMQHzmGiCUG3utl0) 和「新增廣告活動」。\n3. 選取要建立的廣告活動類型。\n4. (選用) 設定廣告活動目標，然後輸入商家網站網址。\n5. 在「選取廣告活動設定」頁面上，捲動至「出價」區段並選取出價策略。\n6. 捲動至「每日預算」區段，接著輸入個別每日預算，或是使用共用預算。\n7. 選好其他廣告活動設定後，按一下「儲存並繼續」。\n\n* * *\n\n## 廣告活動預算的運作方式\n\n在 Google Ads 中，您可以選擇為廣告活動設定 [平均每日預算](https://support.google.com/google-ads/answer/6312) 或共用預算。您可以將每日願意為廣告活動支出的平均金額設為平均每日預算。如要查看所有廣告活動的平均每日預算，請參閱「廣告活動」分頁下的「預算」欄。如果您想按月 (而非日) 設定預算，可以將平均每日預算乘以 30.4 (每月平均天數)，來算出每月預算。\n\n**訣竅**：從較低金額開始出價。採用新預算後，請每天查看帳戶以掌握廣告活動的成效。\n\n您可針對同一客戶設定共用預算，金額為您願意在多個廣告活動中支出的總額。以下舉例說明當您使用共用預算時，Google Ads 如何最佳化廣告活動成效。\n\n#### 範例\n\n假設您每天撥出 $100 美元，並平分給兩個廣告活動。某天，其中一個廣告活動獲得的曝光和點擊次數比平常少，結果只花費 $40 美元。如果使用共用預算，Google Ads 可以將剩下的 $10 美元重新分配給第二個廣告活動，以提升整體廣告活動成效。\n\n若您的客戶有多個廣告活動具備共同目標，共用預算便可發揮效用。舉例來說，透過特定節日 (例如跨年夜或情人節) 放送 [季節性廣告活動](https://support.google.com/google-ads/answer/2880335) 時，您可以設定客戶專屬的共用預算，以限制所有客戶的季節性廣告活動相關支出。\n\n您可以在自己 Google Ads 帳戶的共用資料庫中存取共用預算。\n\n**注意**：共用預算不適用於 [廣告活動群組](https://support.google.com/google-ads/answer/6393275) 或實驗中的廣告活動。\n\n### 超量放送\n\n流量每天都會波動，因此 Google 允許單日廣告活動費用超過平均每日預算，這種情況稱為 [超量放送](https://support.google.com/google-ads/answer/1704443)，\n\n不過，您的單日廣告活動支出絕不會超過平均每日預算的 2 倍；同時，在指定帳單週期內，我們向您收取的費用也絕不會超過 30.4 乘以平均每日預算所得的總金額。舉例來說，如果您的預算是每天 $10 美元，您每月需支付的金額絕不會超過 $304 美元。\n\n即使 Google 過度頻繁放送廣告，導致當月費用超出每月總預算 (依照設定的平均每日預算推算得出)，您需支付的費用仍不會超過每月支出上限。比方說，如果每月支出上限為 $304 美元，而某帳單週期內累積的費用達 $310 美元，您仍只須支付 $304 美元。 [交易記錄頁面](https://support.google.com/google-ads/answer/1704427) 會列出這些調整。\n\n**訣竅**：查看建議的預算。廣告活動用完所有的預算了嗎？您的預算設定中有「查看建議的預算」選項，其中的建議金額通常根據廣告活動最近 15 天的成效分析計算而得。\n\n\n## 出價的運作方式\n\n談到競價，大家通常會認為由出價最高者得標。不過，我們的 [廣告競價](https://support.google.com/google-ads/answer/1704431) 會同時根據品質和出價來決定廣告排名。因此，就算競爭對手的出價比較高，只要 [關鍵字](https://support.google.com/google-ads/answer/6323) 和廣告關聯性高，您還是能以較低的價格贏得較高的排名。實際支付的金額通常會低於最高出價，因為您只需要支付足以維持 [廣告評級](https://support.google.com/google-ads/answer/1752122) 及搭配廣告顯示的 [廣告格式](https://support.google.com/google-ads/answer/3333616) 費用，例如網站連結。這筆金額又稱為 [實際單次點擊出價](https://support.google.com/google-ads/answer/6297)。\n\n設定出價的方法很多種，其中包括一整套的 [自動出價策略](https://support.google.com/google-ads/answer/2979071)，不過剛開始設定出價時，廣告客戶大多會採用「盡量爭取點擊」或「手動單次點擊出價」策略。\n\n### 盡量爭取點擊與手動單次點擊出價\n\n如果您的目標是增加點擊以提升網站流量，不妨考慮下列兩種單次點擊出價策略：\n\n- 「盡量爭取點擊」是最簡單的自動出價策略。設定 **平均每日預算** 後，Google Ads AI 會管理出價，在預算範圍內為您爭取最多點擊。\n- 「手動單次點擊出價」可讓您自行管理最高單次點擊出價。您可以針對廣告活動內的各個廣告群組、個別關鍵字或刊登位置設定不同的出價。如果您發現特定關鍵字或刊登位置的獲利較高，可以利用手動出價將較多廣告預算撥給這些關鍵字或 [刊登位置](https://support.google.com/google-ads/answer/53215)。\n\n**訣竅**：估算關鍵字流量。建議您使用「 [關鍵字規劃工具](https://support.google.com/google-ads/answer/3114286)」估算關鍵字的流量，例如預估點擊次數、 [曝光次數](https://support.google.com/google-ads/answer/6320) 或平均單次點擊出價。設定出價和預算時，這些估算值是非常實用的參考資料。\n\n### 出價調整幅度\n\n您可以設定出價調整幅度，根據廣告放送的特定條件 (例如裝置類型、地點、日子或時段) 調整出價。出價調整幅度可協助您掌控廣告放送的時間和位置，且能套用在現有出價上。您還能設定並搭配使用多項調整幅度 (例如地區與時段，或時段與行動裝置)，藉此自訂出價策略。詳情請見「 [出價調整幅度簡介](https://support.google.com/google-ads/answer/2732132)」一文。\n\n\n### 相關連結\n\n- [管理不同廣告活動的共用預算](https://support.google.com/google-ads/answer/2517512)\n- [最佳化平均每日預算的訣竅](https://support.google.com/google-ads/answer/2375418)\n- [出價調整幅度簡介](https://support.google.com/google-ads/answer/2732132)",
+    "start_marker": "# 選擇出價和預算",
+    "end_marker": "這個頁面可能含有使用 AI 技術翻譯的內容，也許會有錯誤。",
+    "cleaning_method": "rule_based",
+    "rules_version": "v1.0"
+  },
+  "clean_metrics": {
+    "character_count": 4340,
+    "line_count": 84,
+    "heading_count": 9,
+    "link_count": 29,
+    "removed_character_count": 10040,
+    "removed_ratio": 0.698192
+  },
+  "quality": {
+    "has_title": true,
+    "has_main_content": true,
+    "minimum_length_passed": true,
+    "possible_navigation_noise": false,
+    "possible_footer_noise": false,
+    "manual_review_required": false
+  },
+  "removed_blocks": [
+    {
+      "layer": "B",
+      "rule": "before_main_content",
+      "start_line": 1,
+      "end_line": 90,
+      "character_count": 448,
+      "preview": "[跳至主內容](https://support.google.com/google-ads/answer/2375454?hl=zh-Hant#search-form)\n\n- Google 多媒體廣告聯播網上的多媒體廣告\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n瞭解多媒體廣告以及 Google 多媒體廣告聯播網的價值\n\n\n\n規劃 Google 多媒體廣告聯播網廣告活動\n\n\n\n製作廣告\n"
+    },
+    {
+      "layer": "B",
+      "rule": "footer_boundary",
+      "start_line": 178,
+      "end_line": 308,
+      "character_count": 9577,
+      "preview": "這個頁面可能含有使用 AI 技術翻譯的內容，也許會有錯誤。\n\n與我們分享你對這篇文章的意見\n\n選擇要提供意見的區段\n\n## 這對您有幫助嗎？\n\n我們應如何改進呢？\n\n提交\n\n## 還有其他問題嗎？\n\n### 嘗試以下步驟：\n\n[到產品討論社群發問 向社群成員尋求答案](https://support.google.com/google-ads/community?hl=zh-Hant&help_c"
+    },
+    {
+      "layer": "A",
+      "rule": "over_repeated_line",
+      "start_line": 149,
+      "end_line": 149,
+      "character_count": 5,
+      "preview": "* * *"
+    },
+    {
+      "layer": "A",
+      "rule": "over_repeated_line",
+      "start_line": 170,
+      "end_line": 170,
+      "character_count": 5,
+      "preview": "* * *"
+    }
+  ],
+  "error": null
+}

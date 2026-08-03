@@ -1,0 +1,33 @@
+{
+  "case_id": "case_014",
+  "citation_id": "citation_010",
+  "source_url": "https://baike.baidu.com/item/%E7%BE%8E%E5%9B%BD%E5%AD%98%E6%89%98%E8%82%A1%E4%BB%BD/4484370",
+  "status": "success",
+  "firecrawl": {
+    "markdown": "访问异常，请进行验证\n\n请完成下方验证后继续操作\n\n\n![](https://passport.baidu.com/cap/img?ak=GHm64ouBF7GGAhXNcsae9xiVByAGWhMI&id=4311-QTFVF4wSRXsURgz8aOnaeGT8wWFcsg2ttkn%2BvsXq95KFKSnEDeV0j1Ns6DVVRNdHY8Rthaa352zZAriWr5K5PnTlwZ4CtcMeepNMAmy0h8j6Vm1IeBRRzty%2FXELp9FkeAvoBytjHO%2FzUDJX%2FdWFgZBhyzhUsxb6XDadXbARxUMVpUrLkDIttvd5rgp3ZjRYmGflc2fURp0VACeD0oBhWicINyMpp9444TdKZ48LU82AL8N7aZEys0kd2Hv3Y3QGw&tk=4558lh8pgYrAwVistGuRBJiq8re3E7ZiPlsvD6tgYJ8Baq95HIKxSUcuSUe7Mpc36QQWeJiuLRqkSl44eoaL%2BOG%2BPoPwCXgSLHPorgkxTlSft8455eJG1ibzmyCzwDKcHwZR%2FN4yJZ82h%2BiTLjNMn3fppw%3D%3D)![](<Base64-Image-Removed>)\n\n![](<Base64-Image-Removed>)正在验证...\n\n验证通过\n\n图片未转正\n\n网络不给力，请刷新重试\n\n![](<Base64-Image-Removed>)加载中...\n\n图片由AI生成\n\n拖动左侧滑块使图片为正\n\n扫码验证\\| [意见反馈](https://wappass.baidu.com/static/activity/feedback.html?source=36686) \\|刷新",
+    "metadata": {
+      "title": "\n百度百科-验证",
+      "description": "百度百科是一部内容开放、自由的网络百科全书，旨在创造一个涵盖所有领域知识，服务所有互联网用户的中文知识性百科全书。在这里你可以参与词条编辑，分享贡献你的知识。, ",
+      "referrer": "always",
+      "image": "https://bkssl.bdimg.com/cms/static/baike.png",
+      "name": "百度百科-验证",
+      "favicon": "https://baikebcs.bdimg.com/cms/static/baike-icon.svg",
+      "scrapeId": "019fb73a-909d-756c-8e21-35b06c372dde",
+      "sourceURL": "https://baike.baidu.com/item/%E7%BE%8E%E5%9B%BD%E5%AD%98%E6%89%98%E8%82%A1%E4%BB%BD/4484370",
+      "url": "https://baike.baidu.com/anticrawl/captchaview?captchaSourceUrl=%2Fitem%2F%25E7%25BE%258E%25E5%259B%25BD%25E5%25AD%2598%25E6%2589%2598%25E8%2582%25A1%25E4%25BB%25BD%2F4484370&captchaSourceFrom=pc_lemma_page_risk_score",
+      "statusCode": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "proxyUsed": "basic",
+      "cacheState": "hit",
+      "cachedAt": "2026-07-31T07:38:04.888Z",
+      "creditsUsed": 1,
+      "concurrencyLimited": false
+    },
+    "title": "\n百度百科-验证",
+    "_response": {
+      "success": true
+    }
+  },
+  "structured": null,
+  "error": null
+}

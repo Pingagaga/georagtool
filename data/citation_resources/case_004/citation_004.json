@@ -1,0 +1,35 @@
+{
+  "case_id": "case_004",
+  "citation_id": "citation_004",
+  "source_url": "https://skillshop.withgoogle.com/intl/zh-TW_ALL/",
+  "status": "success",
+  "firecrawl": {
+    "markdown": "[Skip to Content](https://skillshop.withgoogle.com/intl/zh-TW_ALL/#jump-content)\n\n[好學堂](https://skillshop.withgoogle.com/intl/zh-TW_ALL/)\n\nX\n\n好學堂\n\n# 參加線上訓練課程，掌握運用 Google 企業工具的技巧\n\n你可以參加由 Google 產品專家設計的線上學習課程，培養能立即派上用場的技能。學習步調可自由做主，學成後還能取得 Google 產品認證。\n\n![參加線上訓練課程，掌握運用 Google 企業工具的技巧](https://skillshop.withgoogle.com/src/static/images/skillshop_home_1_new.png)\n\n## 一起來探索好學堂\n\n找出適合自己的線上產品訓練課程和認證。\n\n![一起來探索好學堂](https://skillshop.withgoogle.com/src/static/images/home_explore_skillshop_1@2x.png)\n\n##### Google Ads\n\n歡迎使用 Google Ads 強化行銷技巧，在線上推廣自家業務，並取得 Google Ads 認證。\n\n![一起來探索好學堂](https://skillshop.withgoogle.com/src/static/images/home_explore_skillshop_2@2x.png)\n\n##### Google Marketing Platform\n\n瞭解 Google Marketing Platform 如何協助您規劃、放送以及評估廣告活動。\n\n![一起來探索好學堂](https://skillshop.withgoogle.com/src/static/images/home_explore_skillshop_3@2x.png)\n\n##### Google Analytics (分析)\n\n歡迎學習如何使用 Google 評估工具，透過智慧資料收集和分析工具提升業務成效。\n\n![一起來探索好學堂](https://skillshop.withgoogle.com/src/static/images/home_explore_skillshop_4@2x.png)\n\n##### Google 我的商家\n\n瞭解如何運用 Google 商家檔案吸引和觸及消費者。\n\n![一起來探索好學堂](https://skillshop.withgoogle.com/src/static/images/home_explore_skillshop_5@2x.png)\n\n##### Google Ad Manager\n\n一起來瞭解 Google Ad Manager 如何協助你提升廣告收益。\n\n![一起來探索好學堂](https://skillshop.withgoogle.com/src/static/images/home_explore_skillshop_6@2x.png)\n\n##### Google AdMob\n\n歡迎使用 Google AdMob 來提升收益及管理廣告空間。\n\n![一起來探索好學堂](https://skillshop.withgoogle.com/src/static/images/home_explore_skillshop_7@2x.png)\n\n##### Authorized Buyers\n\n一起來瞭解 Authorized Buyers 計畫如何協助你發掘許多品質優良的 Google 合作夥伴廣告空間\n\n![一起來探索好學堂](https://skillshop.withgoogle.com/src/static/images/home_explore_skillshop_8@2x.png)\n\n##### Waze\n\n一起來探索如何運用 Waze Ads 的強大功能，引導客戶親臨自家商店",
+    "metadata": {
+      "title": "好學堂",
+      "viewport": "initial-scale=1, minimum-scale=1, width=device-width",
+      "referrer": "no-referrer",
+      "google": "notranslate",
+      "description": "歡迎參加免費線上訓練課程，培養 Google 企業工具的相關技能。你可以依照自己的步調學習，並逐步取得 Google 產品認證。",
+      "language": "zh",
+      "google-signin-scope": "profile email",
+      "favicon": "https://storage.googleapis.com/operating-anagram-8280/favicon-32x32.png",
+      "scrapeId": "019fb736-0eba-73fa-b1e1-b6c8ad7a421a",
+      "sourceURL": "https://skillshop.withgoogle.com/intl/zh-TW_ALL/",
+      "url": "https://skillshop.withgoogle.com/intl/zh-TW_ALL/",
+      "statusCode": 200,
+      "contentType": "text/html; charset=utf-8",
+      "proxyUsed": "basic",
+      "cacheState": "hit",
+      "cachedAt": "2026-07-31T07:34:57.672Z",
+      "creditsUsed": 1,
+      "concurrencyLimited": false
+    },
+    "title": "好學堂",
+    "_response": {
+      "success": true
+    }
+  },
+  "structured": null,
+  "error": null
+}
