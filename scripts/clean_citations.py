@@ -1,10 +1,11 @@
-"""Clean Firecrawl citation Markdown with deterministic, configurable rules."""
+"""Clean citations from Case Packages with deterministic, conservative rules."""
 
 from __future__ import annotations
 
 import argparse
 import json
 import re
+import sys
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
@@ -23,19 +24,18 @@ def read_json(path: Path) -> dict[str, Any]:
 
 def write_json(path: Path, value: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(
-        json.dumps(value, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def project_path(path: Path) -> str:
+    return path.as_posix()
 
 
 def markdown_metrics(markdown: str) -> dict[str, int]:
     return {
         "character_count": len(markdown),
         "line_count": len(markdown.splitlines()) if markdown else 0,
-        "heading_count": sum(
-            1 for line in markdown.splitlines() if HEADING_RE.match(line)
-        ),
+        "heading_count": sum(1 for line in markdown.splitlines() if HEADING_RE.match(line)),
         "link_count": len(LINK_RE.findall(markdown)),
     }
 
@@ -52,408 +52,308 @@ def combined_site_rules(rules: dict[str, Any], source_url: str) -> dict[str, Any
     hostname = (urlparse(source_url).hostname or "").lower()
     site = rules.get("sites", {}).get(hostname, {})
     return {
-        "hostname": hostname,
-        "line_patterns": generic.get("line_patterns", [])
-        + site.get("line_patterns", []),
-        "end_patterns": generic.get("end_patterns", [])
-        + site.get("end_patterns", []),
-        "navigation_noise_patterns": generic.get(
-            "navigation_noise_patterns", []
-        )
+        "line_patterns": generic.get("line_patterns", []) + site.get("line_patterns", []),
+        "navigation_noise_patterns": generic.get("navigation_noise_patterns", [])
         + site.get("navigation_noise_patterns", []),
         "footer_noise_patterns": generic.get("footer_noise_patterns", [])
         + site.get("footer_noise_patterns", []),
     }
 
 
-def normalized_title(value: str) -> str:
-    value = re.sub(r"[*_`~\[\]]", "", value)
-    return re.sub(r"[\s\-–—|｜:：]+", "", value).casefold()
-
-
-def find_start(lines: list[str], metadata_title: str) -> tuple[int, str]:
-    headings: list[tuple[int, int, str, str]] = []
-    for index, line in enumerate(lines):
-        match = HEADING_RE.match(line)
-        if match:
-            headings.append((index, len(match.group(1)), match.group(2), line.strip()))
-
-    wanted = normalized_title(metadata_title)
-    if wanted:
-        for index, level, text, marker in headings:
-            candidate = normalized_title(text)
-            if level == 1 and candidate and (
-                candidate in wanted or wanted in candidate
-            ):
-                return index, marker
-    for level in (1, 2):
-        for index, heading_level, _text, marker in headings:
-            if heading_level == level:
-                return index, marker
-    return 0, "START_OF_DOCUMENT"
-
-
-def find_end(
-    lines: list[str], start_index: int, patterns: list[str]
-) -> tuple[int, str]:
-    compiled = [(pattern, re.compile(pattern, re.IGNORECASE)) for pattern in patterns]
-    for index in range(start_index, len(lines)):
-        for _pattern, regex in compiled:
-            if regex.search(lines[index]):
-                return index, lines[index].strip()
-    return len(lines), "END_OF_DOCUMENT"
-
-
-def removed_block(
-    layer: str,
-    rule: str,
-    lines: list[str],
-    start_line: int,
-    end_line: int,
-) -> dict[str, Any]:
-    text = "\n".join(lines)
+def removed_line(rule: str, line: str, source_line: int) -> dict[str, Any]:
     return {
-        "layer": layer,
+        "layer": "line",
         "rule": rule,
-        "start_line": start_line,
-        "end_line": end_line,
-        "character_count": len(text),
-        "preview": text[:200],
+        "start_line": source_line,
+        "end_line": source_line,
+        "character_count": len(line),
+        "preview": line[:200],
     }
 
 
-def clean_selected_lines(
-    lines: list[str],
+def normalize_markdown(
+    markdown: str,
     line_patterns: list[dict[str, str] | str],
-    maximum_repetitions: int,
     maximum_blank_lines: int,
-    source_line_offset: int,
-) -> tuple[list[str], list[dict[str, Any]]]:
+) -> tuple[str, list[dict[str, Any]]]:
+    """Apply only low-risk, line-local normalization to Markdown."""
     compiled = [
-        (
-            spec.get("name", spec["pattern"]) if isinstance(spec, dict) else spec,
-            compile_pattern(spec),
-        )
+        (spec.get("name", spec["pattern"]) if isinstance(spec, dict) else spec, compile_pattern(spec))
         for spec in line_patterns
     ]
+    lines = markdown.replace("\r\n", "\n").replace("\r", "\n").split("\n")
     kept: list[str] = []
     removals: list[dict[str, Any]] = []
-    occurrence_count: dict[str, int] = {}
     blank_count = 0
-
-    for local_index, line in enumerate(lines):
-        source_line = source_line_offset + local_index + 1
-        matched_rule = next(
-            (name for name, regex in compiled if regex.match(line)), None
-        )
+    for source_line, original_line in enumerate(lines, start=1):
+        line = original_line.rstrip()
+        matched_rule = next((name for name, regex in compiled if regex.fullmatch(line)), None)
         if matched_rule:
-            removals.append(
-                removed_block(
-                    "A", matched_rule, [line], source_line, source_line
-                )
-            )
+            removals.append(removed_line(matched_rule, line, source_line))
             continue
-
-        if not line.strip():
+        if not line:
             blank_count += 1
             if blank_count > maximum_blank_lines:
                 continue
             kept.append("")
             continue
         blank_count = 0
-
-        key = re.sub(r"\s+", " ", line.strip())
-        occurrence_count[key] = occurrence_count.get(key, 0) + 1
-        if occurrence_count[key] > maximum_repetitions:
-            removals.append(
-                removed_block(
-                    "A",
-                    "over_repeated_line",
-                    [line],
-                    source_line,
-                    source_line,
-                )
-            )
-            continue
-        kept.append(line.rstrip())
-
+        kept.append(line)
     while kept and not kept[-1]:
         kept.pop()
-    return kept, removals
+    return "\n".join(kept), removals
 
 
 def contains_pattern(markdown: str, patterns: list[str]) -> bool:
     return any(re.search(pattern, markdown, re.IGNORECASE | re.MULTILINE) for pattern in patterns)
 
 
-def empty_result(resource: dict[str, Any], rules_version: str) -> dict[str, Any]:
-    firecrawl = resource.get("firecrawl")
-    if not isinstance(firecrawl, dict):
-        firecrawl = {}
-    metadata = firecrawl.get("metadata")
-    if not isinstance(metadata, dict):
-        metadata = {}
-    raw = firecrawl.get("markdown", "")
-    if not isinstance(raw, str):
-        raw = ""
-    title = firecrawl.get("title") or metadata.get("title") or ""
+def first_heading(markdown: str) -> str:
+    for line in markdown.splitlines():
+        match = HEADING_RE.match(line)
+        if match:
+            return match.group(2).strip()
+    return ""
+
+
+def base_result(
+    citation: dict[str, Any], rules_version: str, package_path: Path, case_id: str
+) -> dict[str, Any]:
+    required = ("citation_id", "position", "source_url", "title", "status", "capture_method")
+    missing = [field for field in required if field not in citation]
+    if missing:
+        raise ValueError(f"Citation is missing required fields: {', '.join(missing)}")
     return {
-        "case_id": resource.get("case_id", ""),
-        "citation_id": resource.get("citation_id", ""),
-        "source_url": resource.get("source_url", ""),
-        "status": "failed",
-        "source": {
-            "title": title,
-            "language": metadata.get("language", ""),
-            "status_code": metadata.get("statusCode"),
-            "content_type": metadata.get("contentType", ""),
+        "schema_version": "1.0",
+        "case_id": case_id,
+        "citation_id": citation["citation_id"],
+        "position": citation["position"],
+        "source_url": citation["source_url"],
+        "title": citation["title"],
+        "status": citation["status"],
+        "capture_method": citation["capture_method"],
+        "cleaning_status": "failed",
+        "provenance": {
+            "source_package": project_path(package_path),
+            "case_id": case_id,
+            "citation_id": citation["citation_id"],
         },
-        "raw_metrics": markdown_metrics(raw),
         "cleaned": {
-            "title": "",
+            "title": citation["title"],
             "markdown": "",
-            "start_marker": "",
-            "end_marker": "",
             "cleaning_method": "rule_based",
             "rules_version": rules_version,
         },
+        "raw_metrics": markdown_metrics(""),
         "clean_metrics": {
             **markdown_metrics(""),
-            "removed_character_count": len(raw),
-            "removed_ratio": 1.0 if raw else 0.0,
+            "removed_character_count": 0,
+            "removed_ratio": 0.0,
         },
         "quality": {
-            "has_title": False,
+            "has_title": bool(str(citation["title"]).strip()),
             "has_main_content": False,
             "minimum_length_passed": False,
             "possible_navigation_noise": False,
             "possible_footer_noise": False,
-            "manual_review_required": True,
+            "manual_review_required": False,
         },
         "removed_blocks": [],
         "error": None,
     }
 
 
-def clean_resource(
-    resource: dict[str, Any], rules: dict[str, Any]
+def clean_citation(
+    citation: dict[str, Any], rules: dict[str, Any], package_path: Path, case_id: str
 ) -> dict[str, Any]:
-    rules_version = rules.get("rules_version", "v1.0")
-    result = empty_result(resource, rules_version)
+    rules_version = str(rules.get("rules_version", "unknown"))
+    result = base_result(citation, rules_version, package_path, case_id)
+    if citation["status"] == "unsupported":
+        result["cleaning_status"] = "skipped_unsupported"
+        result["cleaned"]["cleaning_method"] = "not_applicable"
+        return result
     try:
-        if resource.get("status") != "success":
-            raise ValueError("Source citation status is not success")
-        firecrawl = resource.get("firecrawl")
-        if not isinstance(firecrawl, dict):
-            raise TypeError("firecrawl must be an object")
-        raw = firecrawl.get("markdown")
+        if citation["status"] != "success":
+            raise ValueError(f"Citation status is not cleanable: {citation['status']!r}")
+        raw = citation.get("markdown")
         if not isinstance(raw, str) or not raw.strip():
-            raise ValueError("firecrawl.markdown is empty")
-        metadata = firecrawl.get("metadata")
-        if not isinstance(metadata, dict):
-            metadata = {}
-
-        source_url = str(resource.get("source_url", ""))
-        active = combined_site_rules(rules, source_url)
-        lines = raw.replace("\r\n", "\n").replace("\r", "\n").split("\n")
-        title = str(firecrawl.get("title") or metadata.get("title") or "")
-        start_index, start_marker = find_start(lines, title)
-        end_index, end_marker = find_end(
-            lines, start_index, active["end_patterns"]
-        )
-
-        removals: list[dict[str, Any]] = []
-        if start_index:
-            removals.append(
-                removed_block(
-                    "B", "before_main_content", lines[:start_index], 1, start_index
-                )
-            )
-        if end_index < len(lines):
-            removals.append(
-                removed_block(
-                    "B",
-                    "footer_boundary",
-                    lines[end_index:],
-                    end_index + 1,
-                    len(lines),
-                )
-            )
-
-        cleaned_lines, line_removals = clean_selected_lines(
-            lines[start_index:end_index],
+            raise ValueError("Citation markdown is empty")
+        active = combined_site_rules(rules, str(citation["source_url"]))
+        cleaned, removals = normalize_markdown(
+            raw,
             active["line_patterns"],
-            int(rules.get("maximum_repeated_line_occurrences", 2)),
             int(rules.get("maximum_consecutive_blank_lines", 1)),
-            start_index,
         )
-        removals.extend(line_removals)
-        markdown = "\n".join(cleaned_lines).strip()
         raw_metrics = markdown_metrics(raw)
-        clean_metrics = markdown_metrics(markdown)
-        removed_count = raw_metrics["character_count"] - clean_metrics["character_count"]
-        ratio = (
-            removed_count / raw_metrics["character_count"]
+        clean_metrics = markdown_metrics(cleaned)
+        removed_count = max(0, raw_metrics["character_count"] - clean_metrics["character_count"])
+        removed_ratio = (
+            round(removed_count / raw_metrics["character_count"], 6)
             if raw_metrics["character_count"]
             else 0.0
         )
-        ratio = round(ratio, 6)
-        h1_or_h2_found = any(
-            (match := HEADING_RE.match(line))
-            and len(match.group(1)) in (1, 2)
-            for line in cleaned_lines
-        )
+        title = first_heading(cleaned) or str(citation["title"])
         minimum_passed = clean_metrics["character_count"] >= int(
             rules.get("minimum_clean_character_count", 500)
         )
-        status_code = metadata.get("statusCode")
-        manual_review = any(
-            (
-                not minimum_passed,
-                ratio > float(
-                    rules.get("maximum_removed_ratio_without_review", 0.85)
-                ),
-                raw_metrics["heading_count"] > 3
-                and clean_metrics["heading_count"] == 0,
-                not h1_or_h2_found,
-                status_code != 200,
-                clean_metrics["character_count"] > raw_metrics["character_count"],
-            )
-        )
-        first_heading = next(
-            (
-                match.group(2)
-                for line in cleaned_lines
-                if (match := HEADING_RE.match(line))
-            ),
-            "",
-        )
-
+        navigation_noise = contains_pattern(cleaned, active["navigation_noise_patterns"])
+        footer_noise = contains_pattern(cleaned, active["footer_noise_patterns"])
         result.update(
             {
-                "status": "success",
-                "raw_metrics": raw_metrics,
+                "cleaning_status": "cleaned",
                 "cleaned": {
-                    "title": first_heading or title,
-                    "markdown": markdown,
-                    "start_marker": start_marker,
-                    "end_marker": end_marker,
+                    "title": title,
+                    "markdown": cleaned,
                     "cleaning_method": "rule_based",
                     "rules_version": rules_version,
                 },
+                "raw_metrics": raw_metrics,
                 "clean_metrics": {
                     **clean_metrics,
                     "removed_character_count": removed_count,
-                    "removed_ratio": ratio,
+                    "removed_ratio": removed_ratio,
                 },
                 "quality": {
-                    "has_title": bool((first_heading or title).strip()),
-                    "has_main_content": bool(markdown.strip()),
+                    "has_title": bool(title.strip()),
+                    "has_main_content": bool(cleaned.strip()),
                     "minimum_length_passed": minimum_passed,
-                    "possible_navigation_noise": contains_pattern(
-                        markdown, active["navigation_noise_patterns"]
-                    ),
-                    "possible_footer_noise": contains_pattern(
-                        markdown, active["footer_noise_patterns"]
-                    ),
-                    "manual_review_required": manual_review,
+                    "possible_navigation_noise": navigation_noise,
+                    "possible_footer_noise": footer_noise,
+                    "manual_review_required": not minimum_passed or navigation_noise or footer_noise,
                 },
                 "removed_blocks": removals,
                 "error": None,
             }
         )
     except Exception as exc:
-        result["error"] = {
-            "type": type(exc).__name__,
-            "message": str(exc),
-        }
+        result["cleaning_status"] = "failed"
+        result["quality"]["manual_review_required"] = True
+        result["error"] = {"type": type(exc).__name__, "message": str(exc)}
     return result
 
 
-def clean_case(
-    input_dir: Path,
-    output_dir: Path,
-    rules_path: Path,
-    citation_ids: list[str],
+def failed_result(
+    citation: dict[str, Any], rules: dict[str, Any], package_path: Path, case_id: str, exc: Exception
 ) -> dict[str, Any]:
-    rules = read_json(rules_path)
-    output_dir.mkdir(parents=True, exist_ok=True)
-    manifest: dict[str, Any] = {
-        "case_id": input_dir.name,
-        "rules_version": rules.get("rules_version", "v1.0"),
-        "expected_count": len(citation_ids),
-        "success_count": 0,
-        "failed_count": 0,
-        "manual_review_count": 0,
-        "citations": [],
+    safe = {
+        "citation_id": citation.get("citation_id", ""),
+        "position": citation.get("position"),
+        "source_url": citation.get("source_url", ""),
+        "title": citation.get("title", ""),
+        "status": citation.get("status", ""),
+        "capture_method": citation.get("capture_method", ""),
     }
+    result = base_result(safe, str(rules.get("rules_version", "unknown")), package_path, case_id)
+    result["quality"]["manual_review_required"] = True
+    result["error"] = {"type": type(exc).__name__, "message": str(exc)}
+    return result
 
-    for citation_id in citation_ids:
+
+def build_clean_case(
+    package_path: Path, rules: dict[str, Any]
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    package = read_json(package_path)
+    case = package.get("case")
+    citations = package.get("citations")
+    if not isinstance(case, dict) or not isinstance(case.get("case_id"), str):
+        raise ValueError(f"{package_path} has no valid case.case_id")
+    if not isinstance(citations, list):
+        raise TypeError(f"{package_path} citations must be a list")
+    case_id = case["case_id"]
+    results: list[dict[str, Any]] = []
+    for value in citations:
+        citation = value if isinstance(value, dict) else {}
         try:
-            resource = read_json(input_dir / f"{citation_id}.json")
-            result = clean_resource(resource, rules)
+            result = clean_citation(citation, rules, package_path, case_id)
         except Exception as exc:
-            resource = {
-                "case_id": input_dir.name,
-                "citation_id": citation_id,
-                "source_url": "",
-            }
-            result = empty_result(
-                resource, rules.get("rules_version", "v1.0")
-            )
-            result["error"] = {
-                "type": type(exc).__name__,
-                "message": str(exc),
-            }
-        write_json(output_dir / f"{citation_id}.clean.json", result)
-        succeeded = result["status"] == "success"
-        manifest["success_count" if succeeded else "failed_count"] += 1
-        review = result["quality"]["manual_review_required"]
-        manifest["manual_review_count"] += int(review)
-        manifest["citations"].append(
-            {
-                "citation_id": citation_id,
-                "status": result["status"],
-                "removed_ratio": result["clean_metrics"]["removed_ratio"],
-                "manual_review_required": review,
-            }
-        )
-        write_json(output_dir / "cleaning_manifest.json", manifest)
-    return manifest
+            result = failed_result(citation, rules, package_path, case_id, exc)
+        results.append(result)
+    entries = [
+        {
+            "citation_id": result["citation_id"],
+            "position": result["position"],
+            "status": result["status"],
+            "capture_method": result["capture_method"],
+            "cleaning_status": result["cleaning_status"],
+            "manual_review_required": result["quality"]["manual_review_required"],
+            "output_file": f"{result['citation_id']}.clean.json",
+        }
+        for result in results
+    ]
+    manifest = {
+        "schema_version": "1.0",
+        "case_id": case_id,
+        "source_package": project_path(package_path),
+        "rules_version": str(rules.get("rules_version", "unknown")),
+        "expected_citation_count": len(citations),
+        "output_citation_count": len(results),
+        "cleaned_count": sum(r["cleaning_status"] == "cleaned" for r in results),
+        "skipped_unsupported_count": sum(
+            r["cleaning_status"] == "skipped_unsupported" for r in results
+        ),
+        "cleaning_failed_count": sum(r["cleaning_status"] == "failed" for r in results),
+        "manual_review_count": sum(r["quality"]["manual_review_required"] for r in results),
+        "citation_count_matches": len(citations) == len(results),
+        "citations": entries,
+    }
+    return results, manifest
 
 
-def main() -> int:
+def discover_packages(input_dir: Path, case_id: str | None) -> list[Path]:
+    paths = sorted(input_dir.glob("case_*.package.json"))
+    if case_id:
+        paths = [path for path in paths if path.name == f"{case_id}.package.json"]
+    return paths
+
+
+def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument(
-        "--input-dir",
-        type=Path,
-        default=Path("data/citation_resources/case_001"),
-    )
-    parser.add_argument(
-        "--output-dir",
-        type=Path,
-        default=Path("data/cleaned_citations/case_001"),
-    )
-    parser.add_argument(
-        "--rules",
-        type=Path,
-        default=Path("config/cleaning_rules.json"),
-    )
-    parser.add_argument(
-        "--citation-ids",
-        nargs="+",
-        default=["citation_001", "citation_002"],
-    )
-    args = parser.parse_args()
-    manifest = clean_case(
-        args.input_dir, args.output_dir, args.rules, args.citation_ids
-    )
+    parser.add_argument("--input-dir", type=Path, default=Path("data/case_packages"))
+    parser.add_argument("--output-root", type=Path, default=Path("data/cleaned_citations"))
+    parser.add_argument("--rules", type=Path, default=Path("config/cleaning_rules.json"))
+    parser.add_argument("--case", dest="case_id")
+    parser.add_argument("--dry-run", action="store_true")
+    return parser
+
+
+def main(argv: list[str] | None = None) -> int:
+    args = build_parser().parse_args(argv)
+    packages = discover_packages(args.input_dir, args.case_id)
+    if not packages:
+        print("Error: no matching Case Packages found.", file=sys.stderr)
+        return 2
+    rules = read_json(args.rules)
+    package_failures = 0
+    total_citations = total_cleaned = total_unsupported = total_failed = 0
+    for package_path in packages:
+        try:
+            results, manifest = build_clean_case(package_path, rules)
+        except Exception as exc:
+            package_failures += 1
+            print(f"{package_path.name}: package failed ({exc})", file=sys.stderr)
+            continue
+        total_citations += manifest["output_citation_count"]
+        total_cleaned += manifest["cleaned_count"]
+        total_unsupported += manifest["skipped_unsupported_count"]
+        total_failed += manifest["cleaning_failed_count"]
+        if not args.dry_run:
+            output_dir = args.output_root / manifest["case_id"]
+            for result in results:
+                write_json(output_dir / f"{result['citation_id']}.clean.json", result)
+            write_json(output_dir / "cleaning_manifest.json", manifest)
+        action = "dry-run" if args.dry_run else "wrote"
+        print(
+            f"{manifest['case_id']}: citations={manifest['output_citation_count']}, "
+            f"cleaned={manifest['cleaned_count']}, "
+            f"unsupported={manifest['skipped_unsupported_count']}, "
+            f"failed={manifest['cleaning_failed_count']}, action={action}"
+        )
     print(
-        f"{manifest['case_id']}: {manifest['success_count']} succeeded, "
-        f"{manifest['failed_count']} failed, "
-        f"{manifest['manual_review_count']} require manual review."
+        f"Processed {len(packages)} package(s): citations={total_citations}, "
+        f"cleaned={total_cleaned}, unsupported={total_unsupported}, "
+        f"failed={total_failed}, package_failures={package_failures}, dry_run={args.dry_run}"
     )
-    return 0 if manifest["failed_count"] == 0 else 1
+    return 0 if not package_failures and total_failed == 0 and total_citations else 1
 
 
 if __name__ == "__main__":

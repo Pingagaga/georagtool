@@ -1,26 +1,14 @@
 {
-  "rules_version": "v1.0",
+  "rules_version": "v1.1",
   "minimum_clean_character_count": 500,
-  "maximum_removed_ratio_without_review": 0.85,
   "maximum_consecutive_blank_lines": 1,
-  "maximum_repeated_line_occurrences": 2,
   "generic": {
     "line_patterns": [
       {
-        "name": "standalone_boolean",
-        "pattern": "^\\s*(?:true|false)\\s*$",
-        "flags": "IGNORECASE"
-      },
-      {
-        "name": "long_numeric_identifier",
-        "pattern": "^\\s*\\d{12,}\\s*$"
-      },
-      {
-        "name": "empty_image",
+        "name": "empty_image_without_url",
         "pattern": "^\\s*!\\[[^\\]]*\\]\\(\\s*(?:[\"'][^\"']*[\"'])?\\s*\\)\\s*$"
       }
     ],
-    "end_patterns": [],
     "navigation_noise_patterns": [
       "^\\s*\\[(?:跳至主內容|跳至主要內容)\\]",
       "^\\s*(?:主選單|Google 應用程式|清除搜尋內容|關閉搜尋)\\s*$"
@@ -33,13 +21,6 @@
   },
   "sites": {
     "support.google.com": {
-      "end_patterns": [
-        "^\\s*這個頁面可能含有使用 AI 技術翻譯的內容",
-        "^\\s*##\\s*這對您有幫助嗎？\\s*$",
-        "^\\s*##\\s*還有其他問題嗎？\\s*$",
-        "^\\s*#\\s*支援小幫手\\s*$",
-        "^\\s*搜尋說明中心\\s*$"
-      ],
       "navigation_noise_patterns": [
         "^\\s*\\[跳至主內容\\]",
         "^\\s*Google 應用程式\\s*$"
@@ -53,9 +34,6 @@
       ]
     },
     "www.gads.tw": {
-      "end_patterns": [
-        "^\\s*返回頂端\\s*$"
-      ],
       "navigation_noise_patterns": [
         "^\\s*\\[跳至主要內容\\]",
         "^\\s*\\[首頁\\].*❭"
